@@ -1,0 +1,192 @@
+[2026-06-22 16:12:14,934] INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/lzlhz74v
+[2026-06-22 16:12:14,934] INFO === d=32: starting 20 rounds ===
+[2026-06-22 16:12:45,715] INFO d=32 round= 0 | acc=94.34% det=0.0% tp=0 fn=2 proving=15.2ms proof=3.09KB
+[2026-06-22 16:13:14,768] INFO d=32 round= 1 | acc=97.19% det=0.0% tp=0 fn=2 proving=18.7ms proof=3.09KB
+[2026-06-22 16:13:44,070] INFO d=32 round= 2 | acc=97.84% det=0.0% tp=0 fn=2 proving=18.8ms proof=3.09KB
+[2026-06-22 16:14:13,291] INFO d=32 round= 3 | acc=98.17% det=0.0% tp=0 fn=2 proving=16.9ms proof=3.09KB
+[2026-06-22 16:14:42,904] INFO d=32 round= 4 | acc=98.40% det=50.0% tp=1 fn=1 proving=15.8ms proof=3.09KB
+[2026-06-22 16:15:12,510] INFO d=32 round= 5 | acc=98.59% det=0.0% tp=0 fn=2 proving=14.7ms proof=3.09KB
+[2026-06-22 16:15:41,737] INFO d=32 round= 6 | acc=98.71% det=0.0% tp=0 fn=2 proving=18.6ms proof=3.09KB
+[2026-06-22 16:16:10,784] INFO d=32 round= 7 | acc=98.82% det=0.0% tp=0 fn=2 proving=14.8ms proof=3.09KB
+[2026-06-22 16:16:39,822] INFO d=32 round= 8 | acc=98.90% det=0.0% tp=0 fn=2 proving=15.8ms proof=3.09KB
+[2026-06-22 16:17:08,855] INFO d=32 round= 9 | acc=98.93% det=0.0% tp=0 fn=2 proving=15.9ms proof=3.09KB
+[2026-06-22 16:17:37,949] INFO d=32 round=10 | acc=99.02% det=0.0% tp=0 fn=2 proving=14.8ms proof=3.09KB
+[2026-06-22 16:18:07,389] INFO d=32 round=11 | acc=99.07% det=0.0% tp=0 fn=2 proving=17.3ms proof=3.09KB
+[2026-06-22 16:18:36,402] INFO d=32 round=12 | acc=99.06% det=0.0% tp=0 fn=2 proving=16.8ms proof=3.09KB
+[2026-06-22 16:19:05,963] INFO d=32 round=13 | acc=99.17% det=0.0% tp=0 fn=2 proving=15.7ms proof=3.09KB
+[2026-06-22 16:19:35,357] INFO d=32 round=14 | acc=99.11% det=0.0% tp=0 fn=2 proving=19.6ms proof=3.09KB
+[2026-06-22 16:20:04,814] INFO d=32 round=15 | acc=99.14% det=0.0% tp=0 fn=2 proving=17.1ms proof=3.09KB
+[2026-06-22 16:20:34,140] INFO d=32 round=16 | acc=99.23% det=0.0% tp=0 fn=2 proving=17.4ms proof=3.09KB
+[2026-06-22 16:21:03,446] INFO d=32 round=17 | acc=99.17% det=0.0% tp=0 fn=2 proving=15.7ms proof=3.09KB
+[2026-06-22 16:21:32,783] INFO d=32 round=18 | acc=99.20% det=0.0% tp=0 fn=2 proving=16.7ms proof=3.09KB
+[2026-06-22 16:22:02,552] INFO d=32 round=19 | acc=99.24% det=0.0% tp=0 fn=2 proving=17.5ms proof=3.09KB
+[2026-06-22 16:22:02,554] INFO d=32 DONE | det_rate=0.0% proving=16.7ms proof=3.09KB
+[2026-06-22 16:22:02,555] INFO Saved per-d log to /workspace/output/ablation_d_logs/d32_results.json
+[2026-06-22 16:22:02,557] INFO === d=64: starting 20 rounds ===
+[2026-06-22 16:22:32,647] INFO d=64 round= 0 | acc=94.34% det=0.0% tp=0 fn=2 proving=37.6ms proof=6.16KB
+wandb: WARNING Tried to log to step 0 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:23:02,203] INFO d=64 round= 1 | acc=97.19% det=0.0% tp=0 fn=2 proving=39.3ms proof=6.16KB
+wandb: WARNING Tried to log to step 1 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:23:31,641] INFO d=64 round= 2 | acc=97.84% det=0.0% tp=0 fn=2 proving=35.1ms proof=6.16KB
+wandb: WARNING Tried to log to step 2 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:24:01,593] INFO d=64 round= 3 | acc=98.17% det=0.0% tp=0 fn=2 proving=36.9ms proof=6.16KB
+wandb: WARNING Tried to log to step 3 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:24:31,314] INFO d=64 round= 4 | acc=98.39% det=0.0% tp=0 fn=2 proving=34.8ms proof=6.16KB
+wandb: WARNING Tried to log to step 4 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:25:00,848] INFO d=64 round= 5 | acc=98.58% det=0.0% tp=0 fn=2 proving=36.3ms proof=6.16KB
+wandb: WARNING Tried to log to step 5 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:25:30,571] INFO d=64 round= 6 | acc=98.70% det=0.0% tp=0 fn=2 proving=38.4ms proof=6.16KB
+wandb: WARNING Tried to log to step 6 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:26:00,408] INFO d=64 round= 7 | acc=98.80% det=0.0% tp=0 fn=2 proving=38.4ms proof=6.16KB
+wandb: WARNING Tried to log to step 7 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:26:30,451] INFO d=64 round= 8 | acc=98.90% det=0.0% tp=0 fn=2 proving=35.4ms proof=6.16KB
+wandb: WARNING Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:27:00,376] INFO d=64 round= 9 | acc=98.92% det=0.0% tp=0 fn=2 proving=35.8ms proof=6.16KB
+wandb: WARNING Tried to log to step 9 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:27:30,253] INFO d=64 round=10 | acc=99.06% det=0.0% tp=0 fn=2 proving=36.6ms proof=6.16KB
+wandb: WARNING Tried to log to step 10 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:28:00,020] INFO d=64 round=11 | acc=99.07% det=0.0% tp=0 fn=2 proving=35.1ms proof=6.16KB
+wandb: WARNING Tried to log to step 11 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:28:29,888] INFO d=64 round=12 | acc=99.09% det=0.0% tp=0 fn=2 proving=37.8ms proof=6.16KB
+wandb: WARNING Tried to log to step 12 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:28:59,592] INFO d=64 round=13 | acc=99.11% det=0.0% tp=0 fn=2 proving=36.5ms proof=6.16KB
+wandb: WARNING Tried to log to step 13 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:29:29,341] INFO d=64 round=14 | acc=99.10% det=0.0% tp=0 fn=2 proving=37.4ms proof=6.16KB
+wandb: WARNING Tried to log to step 14 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:29:59,230] INFO d=64 round=15 | acc=99.15% det=0.0% tp=0 fn=2 proving=38.1ms proof=6.16KB
+wandb: WARNING Tried to log to step 15 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:30:28,684] INFO d=64 round=16 | acc=99.19% det=0.0% tp=0 fn=2 proving=34.6ms proof=6.16KB
+wandb: WARNING Tried to log to step 16 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:30:58,618] INFO d=64 round=17 | acc=99.13% det=0.0% tp=0 fn=2 proving=36.6ms proof=6.16KB
+wandb: WARNING Tried to log to step 17 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:31:28,074] INFO d=64 round=18 | acc=99.19% det=0.0% tp=0 fn=2 proving=38.3ms proof=6.16KB
+wandb: WARNING Tried to log to step 18 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:31:57,479] INFO d=64 round=19 | acc=99.24% det=0.0% tp=0 fn=2 proving=35.5ms proof=6.16KB
+[2026-06-22 16:31:57,480] INFO d=64 DONE | det_rate=0.0% proving=36.7ms proof=6.16KB
+[2026-06-22 16:31:57,481] INFO Saved per-d log to /workspace/output/ablation_d_logs/d64_results.json
+[2026-06-22 16:31:57,488] INFO === d=128: starting 20 rounds ===
+[2026-06-22 16:32:27,056] INFO d=128 round= 0 | acc=94.34% det=0.0% tp=0 fn=2 proving=64.9ms proof=12.28KB
+wandb: WARNING Tried to log to step 0 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:32:56,572] INFO d=128 round= 1 | acc=97.19% det=0.0% tp=0 fn=2 proving=66.6ms proof=12.28KB
+wandb: WARNING Tried to log to step 1 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:33:25,656] INFO d=128 round= 2 | acc=97.84% det=0.0% tp=0 fn=2 proving=60.7ms proof=12.28KB
+wandb: WARNING Tried to log to step 2 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:33:54,961] INFO d=128 round= 3 | acc=98.17% det=0.0% tp=0 fn=2 proving=64.0ms proof=12.28KB
+wandb: WARNING Tried to log to step 3 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:34:24,208] INFO d=128 round= 4 | acc=98.39% det=0.0% tp=0 fn=2 proving=63.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 4 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:34:53,680] INFO d=128 round= 5 | acc=98.57% det=0.0% tp=0 fn=2 proving=63.1ms proof=12.28KB
+wandb: WARNING Tried to log to step 5 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:35:23,237] INFO d=128 round= 6 | acc=98.70% det=0.0% tp=0 fn=2 proving=66.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 6 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:35:52,569] INFO d=128 round= 7 | acc=98.81% det=0.0% tp=0 fn=2 proving=62.0ms proof=12.28KB
+wandb: WARNING Tried to log to step 7 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:36:21,645] INFO d=128 round= 8 | acc=98.91% det=0.0% tp=0 fn=2 proving=61.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:36:51,299] INFO d=128 round= 9 | acc=98.88% det=0.0% tp=0 fn=2 proving=66.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 9 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:37:20,992] INFO d=128 round=10 | acc=99.02% det=0.0% tp=0 fn=2 proving=65.6ms proof=12.28KB
+wandb: WARNING Tried to log to step 10 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:37:50,069] INFO d=128 round=11 | acc=99.05% det=0.0% tp=0 fn=2 proving=63.7ms proof=12.28KB
+wandb: WARNING Tried to log to step 11 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:38:19,473] INFO d=128 round=12 | acc=99.06% det=0.0% tp=0 fn=2 proving=59.3ms proof=12.28KB
+wandb: WARNING Tried to log to step 12 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:38:48,843] INFO d=128 round=13 | acc=99.12% det=0.0% tp=0 fn=2 proving=63.7ms proof=12.28KB
+wandb: WARNING Tried to log to step 13 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:39:19,008] INFO d=128 round=14 | acc=99.14% det=0.0% tp=0 fn=2 proving=67.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 14 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:39:48,846] INFO d=128 round=15 | acc=99.10% det=0.0% tp=0 fn=2 proving=65.2ms proof=12.28KB
+wandb: WARNING Tried to log to step 15 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:40:18,488] INFO d=128 round=16 | acc=99.19% det=0.0% tp=0 fn=2 proving=64.7ms proof=12.28KB
+wandb: WARNING Tried to log to step 16 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:40:48,009] INFO d=128 round=17 | acc=99.16% det=0.0% tp=0 fn=2 proving=61.4ms proof=12.28KB
+wandb: WARNING Tried to log to step 17 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:41:17,718] INFO d=128 round=18 | acc=99.19% det=0.0% tp=0 fn=2 proving=65.1ms proof=12.28KB
+wandb: WARNING Tried to log to step 18 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:41:47,988] INFO d=128 round=19 | acc=99.24% det=0.0% tp=0 fn=2 proving=68.5ms proof=12.28KB
+[2026-06-22 16:41:47,990] INFO d=128 DONE | det_rate=0.0% proving=64.2ms proof=12.28KB
+[2026-06-22 16:41:47,991] INFO Saved per-d log to /workspace/output/ablation_d_logs/d128_results.json
+[2026-06-22 16:41:47,998] INFO === d=256: starting 20 rounds ===
+[2026-06-22 16:42:18,595] INFO d=256 round= 0 | acc=94.34% det=0.0% tp=0 fn=2 proving=124.3ms proof=24.53KB
+wandb: WARNING Tried to log to step 0 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:42:48,547] INFO d=256 round= 1 | acc=97.19% det=0.0% tp=0 fn=2 proving=124.9ms proof=24.53KB
+wandb: WARNING Tried to log to step 1 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:43:17,850] INFO d=256 round= 2 | acc=97.84% det=0.0% tp=0 fn=2 proving=118.0ms proof=24.53KB
+wandb: WARNING Tried to log to step 2 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:43:47,173] INFO d=256 round= 3 | acc=98.17% det=0.0% tp=0 fn=2 proving=124.4ms proof=24.53KB
+wandb: WARNING Tried to log to step 3 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:44:16,506] INFO d=256 round= 4 | acc=98.39% det=0.0% tp=0 fn=2 proving=121.1ms proof=24.53KB
+wandb: WARNING Tried to log to step 4 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:44:45,843] INFO d=256 round= 5 | acc=98.56% det=0.0% tp=0 fn=2 proving=119.6ms proof=24.53KB
+wandb: WARNING Tried to log to step 5 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:45:15,483] INFO d=256 round= 6 | acc=98.68% det=0.0% tp=0 fn=2 proving=118.7ms proof=24.53KB
+wandb: WARNING Tried to log to step 6 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:45:45,332] INFO d=256 round= 7 | acc=98.79% det=0.0% tp=0 fn=2 proving=122.4ms proof=24.53KB
+wandb: WARNING Tried to log to step 7 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:46:15,632] INFO d=256 round= 8 | acc=98.92% det=0.0% tp=0 fn=2 proving=120.7ms proof=24.53KB
+wandb: WARNING Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:46:45,411] INFO d=256 round= 9 | acc=98.90% det=0.0% tp=0 fn=2 proving=119.6ms proof=24.53KB
+wandb: WARNING Tried to log to step 9 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:47:15,254] INFO d=256 round=10 | acc=99.03% det=0.0% tp=0 fn=2 proving=121.9ms proof=24.53KB
+wandb: WARNING Tried to log to step 10 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:47:44,834] INFO d=256 round=11 | acc=99.02% det=0.0% tp=0 fn=2 proving=120.4ms proof=24.53KB
+wandb: WARNING Tried to log to step 11 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:48:14,518] INFO d=256 round=12 | acc=99.03% det=0.0% tp=0 fn=2 proving=119.9ms proof=24.53KB
+wandb: WARNING Tried to log to step 12 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:48:44,627] INFO d=256 round=13 | acc=99.13% det=0.0% tp=0 fn=2 proving=120.1ms proof=24.53KB
+wandb: WARNING Tried to log to step 13 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:49:14,855] INFO d=256 round=14 | acc=99.09% det=0.0% tp=0 fn=2 proving=123.9ms proof=24.53KB
+wandb: WARNING Tried to log to step 14 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:49:46,406] INFO d=256 round=15 | acc=99.14% det=0.0% tp=0 fn=2 proving=123.4ms proof=24.53KB
+wandb: WARNING Tried to log to step 15 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:50:16,352] INFO d=256 round=16 | acc=99.19% det=0.0% tp=0 fn=2 proving=121.3ms proof=24.53KB
+wandb: WARNING Tried to log to step 16 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:50:46,621] INFO d=256 round=17 | acc=99.16% det=0.0% tp=0 fn=2 proving=126.0ms proof=24.53KB
+wandb: WARNING Tried to log to step 17 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:51:16,096] INFO d=256 round=18 | acc=99.18% det=0.0% tp=0 fn=2 proving=119.6ms proof=24.53KB
+wandb: WARNING Tried to log to step 18 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:51:46,088] INFO d=256 round=19 | acc=99.25% det=0.0% tp=0 fn=2 proving=121.9ms proof=24.53KB
+[2026-06-22 16:51:46,090] INFO d=256 DONE | det_rate=0.0% proving=121.6ms proof=24.53KB
+[2026-06-22 16:51:46,091] INFO Saved per-d log to /workspace/output/ablation_d_logs/d256_results.json
+[2026-06-22 16:51:46,100] INFO === d=512: starting 20 rounds ===
+[2026-06-22 16:52:16,627] INFO d=512 round= 0 | acc=94.34% det=0.0% tp=0 fn=2 proving=241.5ms proof=49.03KB
+wandb: WARNING Tried to log to step 0 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:52:46,370] INFO d=512 round= 1 | acc=97.19% det=0.0% tp=0 fn=2 proving=234.3ms proof=49.03KB
+wandb: WARNING Tried to log to step 1 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:53:16,177] INFO d=512 round= 2 | acc=97.84% det=0.0% tp=0 fn=2 proving=235.9ms proof=49.03KB
+wandb: WARNING Tried to log to step 2 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:53:46,198] INFO d=512 round= 3 | acc=98.17% det=0.0% tp=0 fn=2 proving=236.7ms proof=49.03KB
+wandb: WARNING Tried to log to step 3 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:54:16,571] INFO d=512 round= 4 | acc=98.32% det=50.0% tp=1 fn=1 proving=238.8ms proof=49.03KB
+wandb: WARNING Tried to log to step 4 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:54:47,901] INFO d=512 round= 5 | acc=98.54% det=0.0% tp=0 fn=2 proving=234.0ms proof=49.03KB
+wandb: WARNING Tried to log to step 5 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:55:18,855] INFO d=512 round= 6 | acc=98.68% det=0.0% tp=0 fn=2 proving=237.1ms proof=49.03KB
+wandb: WARNING Tried to log to step 6 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:55:49,870] INFO d=512 round= 7 | acc=98.75% det=0.0% tp=0 fn=2 proving=241.5ms proof=49.03KB
+wandb: WARNING Tried to log to step 7 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:56:20,346] INFO d=512 round= 8 | acc=98.95% det=0.0% tp=0 fn=2 proving=242.7ms proof=49.03KB
+wandb: WARNING Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:56:50,584] INFO d=512 round= 9 | acc=98.93% det=0.0% tp=0 fn=2 proving=240.9ms proof=49.03KB
+wandb: WARNING Tried to log to step 9 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:57:20,437] INFO d=512 round=10 | acc=99.03% det=0.0% tp=0 fn=2 proving=234.2ms proof=49.03KB
+wandb: WARNING Tried to log to step 10 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:57:50,647] INFO d=512 round=11 | acc=99.05% det=0.0% tp=0 fn=2 proving=238.6ms proof=49.03KB
+wandb: WARNING Tried to log to step 11 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:58:20,967] INFO d=512 round=12 | acc=99.04% det=0.0% tp=0 fn=2 proving=239.2ms proof=49.03KB
+wandb: WARNING Tried to log to step 12 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:58:51,688] INFO d=512 round=13 | acc=99.09% det=0.0% tp=0 fn=2 proving=241.1ms proof=49.03KB
+wandb: WARNING Tried to log to step 13 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:59:22,814] INFO d=512 round=14 | acc=99.08% det=0.0% tp=0 fn=2 proving=239.6ms proof=49.03KB
+wandb: WARNING Tried to log to step 14 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 16:59:54,302] INFO d=512 round=15 | acc=99.11% det=0.0% tp=0 fn=2 proving=238.9ms proof=49.03KB
+wandb: WARNING Tried to log to step 15 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 17:00:25,040] INFO d=512 round=16 | acc=99.20% det=0.0% tp=0 fn=2 proving=240.8ms proof=49.03KB
+wandb: WARNING Tried to log to step 16 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 17:00:56,163] INFO d=512 round=17 | acc=99.14% det=0.0% tp=0 fn=2 proving=240.2ms proof=49.03KB
+wandb: WARNING Tried to log to step 17 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 17:01:27,120] INFO d=512 round=18 | acc=99.20% det=0.0% tp=0 fn=2 proving=239.2ms proof=49.03KB
+wandb: WARNING Tried to log to step 18 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[2026-06-22 17:01:57,724] INFO d=512 round=19 | acc=99.25% det=0.0% tp=0 fn=2 proving=235.8ms proof=49.03KB
+[2026-06-22 17:01:57,728] INFO d=512 DONE | det_rate=0.0% proving=238.6ms proof=49.03KB
+[2026-06-22 17:01:57,729] INFO Saved per-d log to /workspace/output/ablation_d_logs/d512_results.json

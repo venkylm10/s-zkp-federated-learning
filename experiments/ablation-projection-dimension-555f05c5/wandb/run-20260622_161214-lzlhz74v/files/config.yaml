@@ -1,0 +1,78 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            aext0jfmw23sc8fvy51fp7536gmt8w89:
+                codePath: ablate_projection_dim.py
+                codePathLocal: ablate_projection_dim.py
+                cpu_count: 17
+                cpu_count_logical: 17
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "9223372036854771712"
+                        used: "15711633408"
+                email: ragidiabhinavreddy@gmail.com
+                executable: /usr/local/bin/python3
+                gpu: NVIDIA L4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7424
+                      memoryTotal: "24152899584"
+                      name: NVIDIA L4
+                      uuid: GPU-0c25c433-618e-7efc-251c-c4c57017c204
+                host: modal
+                memory:
+                    total: "202057781248"
+                os: Linux-4.19.0-gvisor-x86_64-with-glibc2.41
+                program: /workspace/output/code/ablate_projection_dim.py
+                python: CPython 3.11.15
+                root: /workspace/output/code
+                startedAt: "2026-06-22T16:12:14.378211Z"
+                writerId: aext0jfmw23sc8fvy51fp7536gmt8w89
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.11.15
+            "5": 0.27.2
+            "12": 0.27.2
+            "13": linux-x86_64
+attack:
+    value: defense_aware_null_space
+d_values:
+    value:
+        - 32
+        - 64
+        - 128
+        - 256
+        - 512
+dataset:
+    value: mnist
+defense:
+    value: s_zkp_projected_pearson
+num_clients:
+    value: 10
+num_malicious:
+    value: 2
+num_rounds:
+    value: 20
+p0:
+    value: 20000
+poison_scale:
+    value: 3
+seed:
+    value: 42
+warmup_rounds:
+    value: 5

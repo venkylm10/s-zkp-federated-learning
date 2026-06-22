@@ -1,0 +1,102 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            b3hbxszxzyxfu8tvan7ez3gzxrkffh3b:
+                args:
+                    - --dataset
+                    - cifar10
+                    - --rounds
+                    - "40"
+                    - --clients
+                    - "10"
+                    - --malicious
+                    - "2"
+                    - --local-epochs
+                    - "2"
+                    - --batch-size
+                    - "64"
+                    - --lr
+                    - "0.01"
+                    - --correlation-threshold
+                    - "0.4"
+                    - --poison-scale
+                    - "3.0"
+                    - --warmup-rounds
+                    - "5"
+                    - --seed
+                    - "42"
+                    - --output-dir
+                    - /workspace/output
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 17
+                cpu_count_logical: 17
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "9223372036854771712"
+                        used: "15176753152"
+                email: ragidiabhinavreddy@gmail.com
+                executable: /usr/local/bin/python
+                gpu: NVIDIA L4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7424
+                      memoryTotal: "24152899584"
+                      name: NVIDIA L4
+                      uuid: GPU-0c25c433-618e-7efc-251c-c4c57017c204
+                host: modal
+                memory:
+                    total: "202057781248"
+                os: Linux-4.19.0-gvisor-x86_64-with-glibc2.41
+                program: /workspace/output/code/train.py
+                python: CPython 3.11.15
+                root: /workspace/output/code
+                startedAt: "2026-06-22T15:03:45.789522Z"
+                writerId: b3hbxszxzyxfu8tvan7ez3gzxrkffh3b
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.11.15
+            "5": 0.27.2
+            "12": 0.27.2
+            "13": linux-x86_64
+attack:
+    value: null_space_dynamic
+batch_size:
+    value: 64
+correlation_threshold:
+    value: 0.4
+dataset:
+    value: cifar10
+defense:
+    value: sa_fl_pearson_no_zkp
+local_epochs:
+    value: 2
+lr:
+    value: 0.01
+num_clients:
+    value: 10
+num_malicious:
+    value: 2
+num_rounds:
+    value: 40
+poison_scale:
+    value: 3
+seed:
+    value: 42
+warmup_rounds:
+    value: 5

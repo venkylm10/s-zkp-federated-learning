@@ -1,0 +1,136 @@
+[2026-06-22 15:03:46,431] INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/9015zf2r
+[2026-06-22 15:03:46,432] INFO Starting SA-FL experiment: dataset=cifar10, clients=10, malicious=2, rounds=40
+[2026-06-22 15:03:46,435] INFO Loading dataset...
+100.0%
+[2026-06-22 15:25:11,732] INFO Dataset loaded. Test size: 10000
+[2026-06-22 15:25:11,868] INFO Malicious client IDs: {8, 9}
+[2026-06-22 15:25:57,789] INFO [step 0, epoch 0] loss=2.2593 lr=0.01
+[2026-06-22 15:25:57,790] INFO === epoch 0 done | avg_train_loss=1.8527 val_loss=2.2593 val_f1=16.4000 elapsed=45.9s ===
+[2026-06-22 15:25:57,791] INFO Round 0: acc=16.40%, loss=2.2593, detection=0.000, accepted=10/10, time=45.9s
+[2026-06-22 15:26:42,355] INFO [step 79, epoch 1] loss=2.1982 lr=0.01
+[2026-06-22 15:26:42,356] INFO === epoch 1 done | avg_train_loss=1.6226 val_loss=2.1982 val_f1=26.9500 elapsed=44.6s ===
+[2026-06-22 15:26:42,356] INFO Round 1: acc=26.95%, loss=2.1982, detection=0.000, accepted=10/10, time=44.6s
+[2026-06-22 15:27:26,596] INFO [step 158, epoch 2] loss=2.1776 lr=0.01
+[2026-06-22 15:27:26,597] INFO === epoch 2 done | avg_train_loss=1.4906 val_loss=2.1776 val_f1=31.7100 elapsed=44.2s ===
+[2026-06-22 15:27:26,598] INFO Round 2: acc=31.71%, loss=2.1776, detection=0.000, accepted=10/10, time=44.2s
+[2026-06-22 15:28:10,466] INFO [step 237, epoch 3] loss=2.1309 lr=0.01
+[2026-06-22 15:28:10,467] INFO === epoch 3 done | avg_train_loss=1.4073 val_loss=2.1309 val_f1=33.0000 elapsed=43.9s ===
+[2026-06-22 15:28:10,467] INFO Round 3: acc=33.00%, loss=2.1309, detection=0.000, accepted=10/10, time=43.9s
+[2026-06-22 15:28:54,042] INFO [step 316, epoch 4] loss=2.0932 lr=0.01
+[2026-06-22 15:28:54,043] INFO === epoch 4 done | avg_train_loss=1.3310 val_loss=2.0932 val_f1=34.4200 elapsed=43.6s ===
+[2026-06-22 15:28:54,044] INFO Round 4: acc=34.42%, loss=2.0932, detection=0.000, accepted=10/10, time=43.6s
+[2026-06-22 15:29:31,485] INFO Round 5: Null-space attack now active!
+[2026-06-22 15:29:35,732] INFO Round 5: Null-space attack now active!
+[2026-06-22 15:29:38,288] INFO [step 395, epoch 5] loss=2.0625 lr=0.01
+[2026-06-22 15:29:38,289] INFO === epoch 5 done | avg_train_loss=1.2676 val_loss=2.0625 val_f1=34.3400 elapsed=44.2s ===
+[2026-06-22 15:29:38,289] INFO Round 5: acc=34.34%, loss=2.0625, detection=0.000, accepted=10/10, time=44.2s
+[2026-06-22 15:30:22,365] INFO [step 474, epoch 6] loss=2.0395 lr=0.01
+[2026-06-22 15:30:22,366] INFO === epoch 6 done | avg_train_loss=1.2137 val_loss=2.0395 val_f1=36.9700 elapsed=44.1s ===
+[2026-06-22 15:30:22,366] INFO Round 6: acc=36.97%, loss=2.0395, detection=0.000, accepted=10/10, time=44.1s
+[2026-06-22 15:31:06,880] INFO [step 553, epoch 7] loss=2.0145 lr=0.01
+[2026-06-22 15:31:06,881] INFO === epoch 7 done | avg_train_loss=1.1767 val_loss=2.0145 val_f1=37.2300 elapsed=44.5s ===
+[2026-06-22 15:31:06,882] INFO Round 7: acc=37.23%, loss=2.0145, detection=0.000, accepted=10/10, time=44.5s
+[2026-06-22 15:31:51,816] INFO [step 632, epoch 8] loss=1.9903 lr=0.01
+[2026-06-22 15:31:51,816] INFO === epoch 8 done | avg_train_loss=1.1366 val_loss=1.9903 val_f1=38.8900 elapsed=44.9s ===
+[2026-06-22 15:31:51,817] INFO Round 8: acc=38.89%, loss=1.9903, detection=0.000, accepted=10/10, time=44.9s
+[2026-06-22 15:32:36,798] INFO [step 711, epoch 9] loss=1.9586 lr=0.01
+[2026-06-22 15:32:36,800] INFO === epoch 9 done | avg_train_loss=1.1017 val_loss=1.9586 val_f1=40.0600 elapsed=45.0s ===
+[2026-06-22 15:32:36,800] INFO Round 9: acc=40.06%, loss=1.9586, detection=0.000, accepted=10/10, time=45.0s
+[2026-06-22 15:33:21,639] INFO [step 790, epoch 10] loss=1.9660 lr=0.01
+[2026-06-22 15:33:21,640] INFO === epoch 10 done | avg_train_loss=1.0643 val_loss=1.9660 val_f1=38.7000 elapsed=44.8s ===
+[2026-06-22 15:33:21,640] INFO Round 10: acc=38.70%, loss=1.9660, detection=0.000, accepted=10/10, time=44.8s
+[2026-06-22 15:34:06,709] INFO [step 869, epoch 11] loss=1.9408 lr=0.01
+[2026-06-22 15:34:06,710] INFO === epoch 11 done | avg_train_loss=1.0411 val_loss=1.9408 val_f1=39.4300 elapsed=45.1s ===
+[2026-06-22 15:34:06,710] INFO Round 11: acc=39.43%, loss=1.9408, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:34:51,830] INFO [step 948, epoch 12] loss=1.9537 lr=0.01
+[2026-06-22 15:34:51,830] INFO === epoch 12 done | avg_train_loss=1.0190 val_loss=1.9537 val_f1=37.9900 elapsed=45.1s ===
+[2026-06-22 15:34:51,831] INFO Round 12: acc=37.99%, loss=1.9537, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:35:35,999] INFO [step 1027, epoch 13] loss=1.9594 lr=0.01
+[2026-06-22 15:35:35,999] INFO === epoch 13 done | avg_train_loss=0.9961 val_loss=1.9594 val_f1=36.8500 elapsed=44.2s ===
+[2026-06-22 15:35:36,000] INFO Round 13: acc=36.85%, loss=1.9594, detection=0.000, accepted=10/10, time=44.2s
+[2026-06-22 15:36:20,064] INFO [step 1106, epoch 14] loss=1.9264 lr=0.01
+[2026-06-22 15:36:20,065] INFO === epoch 14 done | avg_train_loss=0.9781 val_loss=1.9264 val_f1=39.9100 elapsed=44.1s ===
+[2026-06-22 15:36:20,065] INFO Round 14: acc=39.91%, loss=1.9264, detection=0.000, accepted=10/10, time=44.1s
+[2026-06-22 15:37:04,720] INFO [step 1185, epoch 15] loss=1.9238 lr=0.01
+[2026-06-22 15:37:04,721] INFO === epoch 15 done | avg_train_loss=0.9607 val_loss=1.9238 val_f1=38.5500 elapsed=44.7s ===
+[2026-06-22 15:37:04,722] INFO Round 15: acc=38.55%, loss=1.9238, detection=0.000, accepted=10/10, time=44.7s
+[2026-06-22 15:37:49,241] INFO [step 1264, epoch 16] loss=1.9212 lr=0.01
+[2026-06-22 15:37:49,242] INFO === epoch 16 done | avg_train_loss=0.9320 val_loss=1.9212 val_f1=39.8600 elapsed=44.5s ===
+[2026-06-22 15:37:49,243] INFO Round 16: acc=39.86%, loss=1.9212, detection=0.000, accepted=10/10, time=44.5s
+[2026-06-22 15:38:34,354] INFO [step 1343, epoch 17] loss=1.9327 lr=0.01
+[2026-06-22 15:38:34,355] INFO === epoch 17 done | avg_train_loss=0.9210 val_loss=1.9327 val_f1=37.6200 elapsed=45.1s ===
+[2026-06-22 15:38:34,355] INFO Round 17: acc=37.62%, loss=1.9327, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:39:19,183] INFO [step 1422, epoch 18] loss=1.9289 lr=0.01
+[2026-06-22 15:39:19,184] INFO === epoch 18 done | avg_train_loss=0.9042 val_loss=1.9289 val_f1=37.4500 elapsed=44.8s ===
+[2026-06-22 15:39:19,185] INFO Round 18: acc=37.45%, loss=1.9289, detection=0.000, accepted=10/10, time=44.8s
+[2026-06-22 15:40:03,336] INFO [step 1501, epoch 19] loss=1.9300 lr=0.01
+[2026-06-22 15:40:03,337] INFO === epoch 19 done | avg_train_loss=0.8924 val_loss=1.9300 val_f1=37.2200 elapsed=44.2s ===
+[2026-06-22 15:40:03,338] INFO Round 19: acc=37.22%, loss=1.9300, detection=0.000, accepted=10/10, time=44.2s
+[2026-06-22 15:40:48,069] INFO [step 1580, epoch 20] loss=1.9244 lr=0.01
+[2026-06-22 15:40:48,071] INFO === epoch 20 done | avg_train_loss=0.8769 val_loss=1.9244 val_f1=35.6900 elapsed=44.7s ===
+[2026-06-22 15:40:48,071] INFO Round 20: acc=35.69%, loss=1.9244, detection=0.000, accepted=10/10, time=44.7s
+[2026-06-22 15:41:32,436] INFO [step 1659, epoch 21] loss=1.8896 lr=0.01
+[2026-06-22 15:41:32,437] INFO === epoch 21 done | avg_train_loss=0.8647 val_loss=1.8896 val_f1=37.4900 elapsed=44.4s ===
+[2026-06-22 15:41:32,437] INFO Round 21: acc=37.49%, loss=1.8896, detection=0.000, accepted=10/10, time=44.4s
+[2026-06-22 15:42:17,340] INFO [step 1738, epoch 22] loss=1.8716 lr=0.01
+[2026-06-22 15:42:17,341] INFO === epoch 22 done | avg_train_loss=0.8441 val_loss=1.8716 val_f1=39.7600 elapsed=44.9s ===
+[2026-06-22 15:42:17,341] INFO Round 22: acc=39.76%, loss=1.8716, detection=0.000, accepted=10/10, time=44.9s
+[2026-06-22 15:43:02,022] INFO [step 1817, epoch 23] loss=1.8751 lr=0.01
+[2026-06-22 15:43:02,023] INFO === epoch 23 done | avg_train_loss=0.8345 val_loss=1.8751 val_f1=38.9800 elapsed=44.7s ===
+[2026-06-22 15:43:02,024] INFO Round 23: acc=38.98%, loss=1.8751, detection=0.000, accepted=10/10, time=44.7s
+[2026-06-22 15:43:47,129] INFO [step 1896, epoch 24] loss=1.8821 lr=0.01
+[2026-06-22 15:43:47,130] INFO === epoch 24 done | avg_train_loss=0.8277 val_loss=1.8821 val_f1=38.0500 elapsed=45.1s ===
+[2026-06-22 15:43:47,130] INFO Round 24: acc=38.05%, loss=1.8821, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:44:32,179] INFO [step 1975, epoch 25] loss=1.9027 lr=0.01
+[2026-06-22 15:44:32,179] INFO === epoch 25 done | avg_train_loss=0.8101 val_loss=1.9027 val_f1=36.1100 elapsed=45.0s ===
+[2026-06-22 15:44:32,180] INFO Round 25: acc=36.11%, loss=1.9027, detection=0.000, accepted=10/10, time=45.0s
+[2026-06-22 15:45:17,271] INFO [step 2054, epoch 26] loss=1.8853 lr=0.01
+[2026-06-22 15:45:17,272] INFO === epoch 26 done | avg_train_loss=0.8019 val_loss=1.8853 val_f1=38.1900 elapsed=45.1s ===
+[2026-06-22 15:45:17,272] INFO Round 26: acc=38.19%, loss=1.8853, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:46:03,028] INFO [step 2133, epoch 27] loss=1.8788 lr=0.01
+[2026-06-22 15:46:03,028] INFO === epoch 27 done | avg_train_loss=0.7898 val_loss=1.8788 val_f1=38.3900 elapsed=45.8s ===
+[2026-06-22 15:46:03,029] INFO Round 27: acc=38.39%, loss=1.8788, detection=0.000, accepted=10/10, time=45.8s
+[2026-06-22 15:46:48,187] INFO [step 2212, epoch 28] loss=1.8858 lr=0.01
+[2026-06-22 15:46:48,188] INFO === epoch 28 done | avg_train_loss=0.7818 val_loss=1.8858 val_f1=38.5800 elapsed=45.2s ===
+[2026-06-22 15:46:48,189] INFO Round 28: acc=38.58%, loss=1.8858, detection=0.000, accepted=10/10, time=45.2s
+[2026-06-22 15:47:33,641] INFO [step 2291, epoch 29] loss=1.9143 lr=0.01
+[2026-06-22 15:47:33,643] INFO === epoch 29 done | avg_train_loss=0.7736 val_loss=1.9143 val_f1=35.0200 elapsed=45.5s ===
+[2026-06-22 15:47:33,643] INFO Round 29: acc=35.02%, loss=1.9143, detection=0.000, accepted=10/10, time=45.5s
+[2026-06-22 15:48:18,745] INFO [step 2370, epoch 30] loss=1.9267 lr=0.01
+[2026-06-22 15:48:18,746] INFO === epoch 30 done | avg_train_loss=0.7617 val_loss=1.9267 val_f1=33.7700 elapsed=45.1s ===
+[2026-06-22 15:48:18,746] INFO Round 30: acc=33.77%, loss=1.9267, detection=0.000, accepted=10/10, time=45.1s
+[2026-06-22 15:49:04,309] INFO [step 2449, epoch 31] loss=1.9115 lr=0.01
+[2026-06-22 15:49:04,310] INFO === epoch 31 done | avg_train_loss=0.7544 val_loss=1.9115 val_f1=34.2100 elapsed=45.6s ===
+[2026-06-22 15:49:04,310] INFO Round 31: acc=34.21%, loss=1.9115, detection=0.000, accepted=10/10, time=45.6s
+[2026-06-22 15:49:50,332] INFO [step 2528, epoch 32] loss=1.9158 lr=0.01
+[2026-06-22 15:49:50,333] INFO === epoch 32 done | avg_train_loss=0.7447 val_loss=1.9158 val_f1=34.6400 elapsed=46.0s ===
+[2026-06-22 15:49:50,333] INFO Round 32: acc=34.64%, loss=1.9158, detection=0.000, accepted=10/10, time=46.0s
+[2026-06-22 15:50:35,814] INFO [step 2607, epoch 33] loss=1.9013 lr=0.01
+[2026-06-22 15:50:35,815] INFO === epoch 33 done | avg_train_loss=0.7371 val_loss=1.9013 val_f1=35.0400 elapsed=45.5s ===
+[2026-06-22 15:50:35,815] INFO Round 33: acc=35.04%, loss=1.9013, detection=0.000, accepted=10/10, time=45.5s
+[2026-06-22 15:51:21,293] INFO [step 2686, epoch 34] loss=1.9259 lr=0.01
+[2026-06-22 15:51:21,294] INFO === epoch 34 done | avg_train_loss=0.7302 val_loss=1.9259 val_f1=34.1600 elapsed=45.5s ===
+[2026-06-22 15:51:21,295] INFO Round 34: acc=34.16%, loss=1.9259, detection=0.000, accepted=10/10, time=45.5s
+[2026-06-22 15:52:06,676] INFO [step 2765, epoch 35] loss=1.8762 lr=0.01
+[2026-06-22 15:52:06,677] INFO === epoch 35 done | avg_train_loss=0.7216 val_loss=1.8762 val_f1=37.0300 elapsed=45.4s ===
+[2026-06-22 15:52:06,678] INFO Round 35: acc=37.03%, loss=1.8762, detection=0.000, accepted=10/10, time=45.4s
+[2026-06-22 15:52:51,527] INFO [step 2844, epoch 36] loss=1.9313 lr=0.01
+[2026-06-22 15:52:51,528] INFO === epoch 36 done | avg_train_loss=0.7181 val_loss=1.9313 val_f1=32.6800 elapsed=44.8s ===
+[2026-06-22 15:52:51,528] INFO Round 36: acc=32.68%, loss=1.9313, detection=0.000, accepted=10/10, time=44.8s
+[2026-06-22 15:53:36,167] INFO [step 2923, epoch 37] loss=1.9310 lr=0.01
+[2026-06-22 15:53:36,167] INFO === epoch 37 done | avg_train_loss=0.7031 val_loss=1.9310 val_f1=33.1200 elapsed=44.6s ===
+[2026-06-22 15:53:36,168] INFO Round 37: acc=33.12%, loss=1.9310, detection=0.000, accepted=10/10, time=44.6s
+[2026-06-22 15:54:21,345] INFO [step 3002, epoch 38] loss=1.9290 lr=0.01
+[2026-06-22 15:54:21,346] INFO === epoch 38 done | avg_train_loss=0.6942 val_loss=1.9290 val_f1=33.2400 elapsed=45.2s ===
+[2026-06-22 15:54:21,346] INFO Round 38: acc=33.24%, loss=1.9290, detection=0.000, accepted=10/10, time=45.2s
+[2026-06-22 15:55:06,289] INFO [step 3081, epoch 39] loss=1.9163 lr=0.01
+[2026-06-22 15:55:06,290] INFO === epoch 39 done | avg_train_loss=0.6908 val_loss=1.9163 val_f1=34.3500 elapsed=44.9s ===
+[2026-06-22 15:55:06,290] INFO Round 39: acc=34.35%, loss=1.9163, detection=0.000, accepted=10/10, time=44.9s
+[2026-06-22 15:55:06,292] INFO
+=== Final Results ===
+Dataset: cifar10
+Final test accuracy: 34.35%
+Final test loss: 1.9163
+Cumulative poison detection rate: 0.00%
+(NOTE: ~0% detection expected without ZKP projection checks)
+[2026-06-22 15:55:06,306] INFO Results saved to /workspace/output/sa_fl_baseline_logs/cifar10_results.json
