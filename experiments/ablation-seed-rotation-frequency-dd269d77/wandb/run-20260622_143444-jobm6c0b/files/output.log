@@ -1,0 +1,239 @@
+2026-06-22 14:34:45,458 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/jobm6c0b
+2026-06-22 14:34:45,458 INFO
+============================================================
+2026-06-22 14:34:45,459 INFO DATASET: MNIST
+2026-06-22 14:34:45,459 INFO ============================================================
+2026-06-22 14:34:46,446 INFO Loading ylecun/mnist from HF ...
+2026-06-22 14:34:46,485 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 14:34:46,492 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 14:34:46,511 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:46,545 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:46,570 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/revision/77f3279092a1c1579b2250db8eafed0ad422088c "HTTP/1.1 200 OK"
+2026-06-22 14:34:46,622 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:46,668 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 14:34:46,693 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c/mnist?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:34:46,715 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:34:46,825 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 14:35:01,283 INFO   Train: torch.Size([60000, 1, 28, 28]), Test: torch.Size([10000, 1, 28, 28])
+2026-06-22 14:35:01,507 INFO Model params D = 235146
+2026-06-22 14:35:01,664 INFO Projection matrix P: torch.Size([128, 235146])
+2026-06-22 14:35:01,982 INFO Byzantine clients: [8, 9]
+2026-06-22 14:35:07,115 INFO [Round 1] Null-space verify: proj_diff=2.19e-02, in_null_space=False
+2026-06-22 14:35:07,308 INFO [mnist] Round   1/60 | acc=78.95% | loss=1.8541 | detected=1/2 (50%) | pn_honest=0.143 pn_poison=0.142 | t=5.3s
+2026-06-22 14:35:10,134 INFO [mnist] Round   2/60 | acc=57.16% | loss=2.0598 | detected=0/2 (0%) | pn_honest=0.119 pn_poison=0.120 | t=2.8s
+2026-06-22 14:35:12,721 INFO [mnist] Round   3/60 | acc=27.92% | loss=2.2167 | detected=0/2 (0%) | pn_honest=0.128 pn_poison=0.126 | t=2.6s
+2026-06-22 14:35:15,310 INFO [mnist] Round   4/60 | acc=28.54% | loss=2.2222 | detected=0/2 (0%) | pn_honest=0.136 pn_poison=0.133 | t=2.6s
+2026-06-22 14:35:18,801 INFO [mnist] Round   5/60 | acc=88.28% | loss=0.4023 | detected=2/2 (100%) | pn_honest=0.137 pn_poison=0.133 | t=3.5s
+2026-06-22 14:35:22,341 INFO [mnist] Round   6/60 | acc=86.61% | loss=0.4496 | detected=0/2 (0%) | pn_honest=0.040 pn_poison=0.041 | t=3.5s
+2026-06-22 14:35:25,312 INFO [mnist] Round   7/60 | acc=85.14% | loss=0.4886 | detected=0/2 (0%) | pn_honest=0.041 pn_poison=0.042 | t=3.0s
+2026-06-22 14:35:28,061 INFO [mnist] Round   8/60 | acc=82.62% | loss=0.5769 | detected=0/2 (0%) | pn_honest=0.042 pn_poison=0.043 | t=2.7s
+2026-06-22 14:35:30,745 INFO [mnist] Round   9/60 | acc=85.94% | loss=0.4668 | detected=1/2 (50%) | pn_honest=0.044 pn_poison=0.046 | t=2.7s
+2026-06-22 14:35:33,361 INFO [mnist] Round  10/60 | acc=90.46% | loss=0.3240 | detected=2/2 (100%) | pn_honest=0.039 pn_poison=0.043 | t=2.6s
+2026-06-22 14:35:36,061 INFO [mnist] Round  11/60 | acc=90.90% | loss=0.3186 | detected=1/2 (50%) | pn_honest=0.030 pn_poison=0.034 | t=2.7s
+2026-06-22 14:35:38,879 INFO [mnist] Round  12/60 | acc=92.25% | loss=0.2602 | detected=2/2 (100%) | pn_honest=0.029 pn_poison=0.035 | t=2.8s
+2026-06-22 14:35:41,653 INFO [mnist] Round  13/60 | acc=93.39% | loss=0.2264 | detected=2/2 (100%) | pn_honest=0.027 pn_poison=0.032 | t=2.8s
+2026-06-22 14:35:44,228 INFO [mnist] Round  14/60 | acc=94.05% | loss=0.1988 | detected=2/2 (100%) | pn_honest=0.025 pn_poison=0.031 | t=2.6s
+2026-06-22 14:35:46,827 INFO [mnist] Round  15/60 | acc=94.67% | loss=0.1785 | detected=2/2 (100%) | pn_honest=0.024 pn_poison=0.030 | t=2.6s
+2026-06-22 14:35:49,417 INFO [mnist] Round  16/60 | acc=95.11% | loss=0.1654 | detected=2/2 (100%) | pn_honest=0.023 pn_poison=0.029 | t=2.6s
+2026-06-22 14:35:52,102 INFO [mnist] Round  17/60 | acc=95.57% | loss=0.1506 | detected=2/2 (100%) | pn_honest=0.022 pn_poison=0.028 | t=2.6s
+2026-06-22 14:35:54,954 INFO [mnist] Round  18/60 | acc=95.67% | loss=0.1413 | detected=2/2 (100%) | pn_honest=0.022 pn_poison=0.028 | t=2.8s
+2026-06-22 14:35:58,368 INFO [mnist] Round  19/60 | acc=95.99% | loss=0.1312 | detected=2/2 (100%) | pn_honest=0.022 pn_poison=0.027 | t=3.4s
+2026-06-22 14:36:01,792 INFO [mnist] Round  20/60 | acc=96.29% | loss=0.1254 | detected=2/2 (100%) | pn_honest=0.021 pn_poison=0.027 | t=3.4s
+2026-06-22 14:36:05,598 INFO [mnist] Round  21/60 | acc=96.38% | loss=0.1174 | detected=2/2 (100%) | pn_honest=0.021 pn_poison=0.027 | t=3.8s
+2026-06-22 14:36:09,323 INFO [mnist] Round  22/60 | acc=96.52% | loss=0.1110 | detected=2/2 (100%) | pn_honest=0.020 pn_poison=0.027 | t=3.7s
+2026-06-22 14:36:12,676 INFO [mnist] Round  23/60 | acc=96.73% | loss=0.1062 | detected=2/2 (100%) | pn_honest=0.020 pn_poison=0.027 | t=3.3s
+2026-06-22 14:36:15,434 INFO [mnist] Round  24/60 | acc=96.79% | loss=0.1039 | detected=2/2 (100%) | pn_honest=0.020 pn_poison=0.026 | t=2.8s
+2026-06-22 14:36:18,058 INFO [mnist] Round  25/60 | acc=96.90% | loss=0.0996 | detected=2/2 (100%) | pn_honest=0.019 pn_poison=0.027 | t=2.6s
+2026-06-22 14:36:20,707 INFO [mnist] Round  26/60 | acc=97.04% | loss=0.0969 | detected=2/2 (100%) | pn_honest=0.019 pn_poison=0.026 | t=2.6s
+2026-06-22 14:36:23,296 INFO [mnist] Round  27/60 | acc=97.04% | loss=0.0940 | detected=2/2 (100%) | pn_honest=0.019 pn_poison=0.027 | t=2.6s
+2026-06-22 14:36:25,881 INFO [mnist] Round  28/60 | acc=97.13% | loss=0.0906 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.027 | t=2.6s
+2026-06-22 14:36:28,437 INFO [mnist] Round  29/60 | acc=97.01% | loss=0.0908 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.026 | t=2.6s
+2026-06-22 14:36:31,036 INFO [mnist] Round  30/60 | acc=97.23% | loss=0.0896 | detected=2/2 (100%) | pn_honest=0.019 pn_poison=0.026 | t=2.6s
+2026-06-22 14:36:33,587 INFO [mnist] Round  31/60 | acc=97.33% | loss=0.0847 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.027 | t=2.5s
+2026-06-22 14:36:36,146 INFO [mnist] Round  32/60 | acc=97.33% | loss=0.0843 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.027 | t=2.6s
+2026-06-22 14:36:38,695 INFO [mnist] Round  33/60 | acc=97.41% | loss=0.0824 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.028 | t=2.5s
+2026-06-22 14:36:41,238 INFO [mnist] Round  34/60 | acc=97.47% | loss=0.0808 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.028 | t=2.5s
+2026-06-22 14:36:43,780 INFO [mnist] Round  35/60 | acc=97.52% | loss=0.0792 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.028 | t=2.5s
+2026-06-22 14:36:46,344 INFO [mnist] Round  36/60 | acc=97.55% | loss=0.0789 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.028 | t=2.6s
+2026-06-22 14:36:48,883 INFO [mnist] Round  37/60 | acc=97.56% | loss=0.0778 | detected=2/2 (100%) | pn_honest=0.017 pn_poison=0.028 | t=2.5s
+2026-06-22 14:36:51,450 INFO [mnist] Round  38/60 | acc=97.55% | loss=0.0777 | detected=2/2 (100%) | pn_honest=0.018 pn_poison=0.028 | t=2.6s
+2026-06-22 14:36:54,121 INFO [mnist] Round  39/60 | acc=97.67% | loss=0.0770 | detected=2/2 (100%) | pn_honest=0.017 pn_poison=0.030 | t=2.7s
+2026-06-22 14:36:56,857 INFO [mnist] Round  40/60 | acc=97.66% | loss=0.0764 | detected=2/2 (100%) | pn_honest=0.017 pn_poison=0.029 | t=2.7s
+2026-06-22 14:36:59,394 INFO [mnist] Round  41/60 | acc=97.75% | loss=0.0754 | detected=2/2 (100%) | pn_honest=0.017 pn_poison=0.028 | t=2.5s
+2026-06-22 14:37:01,938 INFO [mnist] Round  42/60 | acc=97.76% | loss=0.0754 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.028 | t=2.5s
+2026-06-22 14:37:04,649 INFO [mnist] Round  43/60 | acc=97.76% | loss=0.0753 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.030 | t=2.7s
+2026-06-22 14:37:07,216 INFO [mnist] Round  44/60 | acc=97.77% | loss=0.0738 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.029 | t=2.6s
+2026-06-22 14:37:09,754 INFO [mnist] Round  45/60 | acc=97.77% | loss=0.0741 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.031 | t=2.5s
+2026-06-22 14:37:12,419 INFO [mnist] Round  46/60 | acc=97.77% | loss=0.0747 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.029 | t=2.7s
+2026-06-22 14:37:14,944 INFO [mnist] Round  47/60 | acc=97.79% | loss=0.0734 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.031 | t=2.5s
+2026-06-22 14:37:17,486 INFO [mnist] Round  48/60 | acc=97.73% | loss=0.0740 | detected=2/2 (100%) | pn_honest=0.016 pn_poison=0.029 | t=2.5s
+2026-06-22 14:37:20,027 INFO [mnist] Round  49/60 | acc=97.78% | loss=0.0732 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.029 | t=2.5s
+2026-06-22 14:37:22,685 INFO [mnist] Round  50/60 | acc=97.79% | loss=0.0729 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.029 | t=2.7s
+2026-06-22 14:37:25,252 INFO [mnist] Round  51/60 | acc=97.73% | loss=0.0729 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.030 | t=2.6s
+2026-06-22 14:37:27,853 INFO [mnist] Round  52/60 | acc=97.79% | loss=0.0727 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.031 | t=2.6s
+2026-06-22 14:37:30,551 INFO [mnist] Round  53/60 | acc=97.76% | loss=0.0725 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.031 | t=2.7s
+2026-06-22 14:37:33,191 INFO [mnist] Round  54/60 | acc=97.78% | loss=0.0725 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.031 | t=2.6s
+2026-06-22 14:37:35,856 INFO [mnist] Round  55/60 | acc=97.84% | loss=0.0735 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.032 | t=2.7s
+2026-06-22 14:37:38,440 INFO [mnist] Round  56/60 | acc=97.80% | loss=0.0727 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.031 | t=2.6s
+2026-06-22 14:37:41,006 INFO [mnist] Round  57/60 | acc=97.79% | loss=0.0726 | detected=2/2 (100%) | pn_honest=0.015 pn_poison=0.031 | t=2.6s
+2026-06-22 14:37:43,554 INFO [mnist] Round  58/60 | acc=97.79% | loss=0.0724 | detected=2/2 (100%) | pn_honest=0.014 pn_poison=0.032 | t=2.5s
+2026-06-22 14:37:46,106 INFO [mnist] Round  59/60 | acc=97.80% | loss=0.0722 | detected=2/2 (100%) | pn_honest=0.014 pn_poison=0.033 | t=2.5s
+2026-06-22 14:37:48,687 INFO [mnist] Round  60/60 | acc=97.77% | loss=0.0725 | detected=2/2 (100%) | pn_honest=0.014 pn_poison=0.032 | t=2.6s
+2026-06-22 14:37:48,689 INFO
+[mnist] FINAL: acc=97.77%, avg_detection=87.50%, best_acc=97.84%
+2026-06-22 14:37:48,690 INFO
+============================================================
+2026-06-22 14:37:48,691 INFO DATASET: CIFAR10
+2026-06-22 14:37:48,691 INFO ============================================================
+2026-06-22 14:37:48,693 INFO Loading uoft-cs/cifar10 from HF ...
+2026-06-22 14:37:48,721 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 14:37:48,727 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,735 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,782 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 14:37:48,784 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 14:37:48,807 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 14:37:48,827 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/revision/0b2714987fa478483af9968de7c934580d0bb9a2 "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,844 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 14:37:48,888 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,908 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,924 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:37:48,942 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 14:37:48,968 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text/train-00000-of-00001.parquet "HTTP/1.1 302 Found"
+2026-06-22 14:37:50,329 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text/test-00000-of-00001.parquet "HTTP/1.1 302 Found"
+Generating train split: 100%|██████████| 50000/50000 [00:00<00:00, 136207.18 examples/s]
+Generating test split: 100%|██████████| 10000/10000 [00:00<00:00, 196675.61 examples/s]
+2026-06-22 14:38:08,873 INFO   Train: torch.Size([50000, 3, 32, 32]), Test: torch.Size([10000, 3, 32, 32])
+2026-06-22 14:38:09,005 INFO Model params D = 620362
+2026-06-22 14:38:09,409 INFO Projection matrix P: torch.Size([128, 620362])
+2026-06-22 14:38:09,413 INFO Byzantine clients: [8, 9]
+2026-06-22 14:38:13,816 INFO [Round 1] Null-space verify: proj_diff=1.81e-02, in_null_space=False
+2026-06-22 14:38:13,971 INFO [cifar10] Round   1/60 | acc=10.00% | loss=2.3068 | detected=0/2 (0%) | pn_honest=0.028 pn_poison=0.029 | t=4.6s
+wandb: WARNING Tried to log to step 1 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:17,612 INFO [cifar10] Round   2/60 | acc=10.00% | loss=2.3091 | detected=0/2 (0%) | pn_honest=0.024 pn_poison=0.023 | t=3.6s
+wandb: WARNING Tried to log to step 2 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:21,807 INFO [cifar10] Round   3/60 | acc=10.00% | loss=2.3063 | detected=0/2 (0%) | pn_honest=0.022 pn_poison=0.022 | t=4.2s
+wandb: WARNING Tried to log to step 3 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:25,649 INFO [cifar10] Round   4/60 | acc=32.34% | loss=1.8794 | detected=2/2 (100%) | pn_honest=0.027 pn_poison=0.025 | t=3.8s
+wandb: WARNING Tried to log to step 4 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:29,796 INFO [cifar10] Round   5/60 | acc=30.33% | loss=1.9305 | detected=0/2 (0%) | pn_honest=0.031 pn_poison=0.030 | t=4.1s
+wandb: WARNING Tried to log to step 5 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:33,700 INFO [cifar10] Round   6/60 | acc=22.30% | loss=2.1183 | detected=0/2 (0%) | pn_honest=0.030 pn_poison=0.030 | t=3.9s
+wandb: WARNING Tried to log to step 6 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:37,454 INFO [cifar10] Round   7/60 | acc=19.12% | loss=2.1835 | detected=0/2 (0%) | pn_honest=0.025 pn_poison=0.025 | t=3.7s
+wandb: WARNING Tried to log to step 7 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:41,176 INFO [cifar10] Round   8/60 | acc=17.61% | loss=2.2918 | detected=0/2 (0%) | pn_honest=0.026 pn_poison=0.025 | t=3.7s
+wandb: WARNING Tried to log to step 8 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:44,954 INFO [cifar10] Round   9/60 | acc=15.15% | loss=2.5397 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.030 | t=3.8s
+wandb: WARNING Tried to log to step 9 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:48,854 INFO [cifar10] Round  10/60 | acc=20.89% | loss=2.2585 | detected=1/2 (50%) | pn_honest=0.029 pn_poison=0.030 | t=3.9s
+wandb: WARNING Tried to log to step 10 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:52,660 INFO [cifar10] Round  11/60 | acc=16.60% | loss=2.7959 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.029 | t=3.8s
+wandb: WARNING Tried to log to step 11 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:38:56,380 INFO [cifar10] Round  12/60 | acc=14.51% | loss=5.9136 | detected=0/2 (0%) | pn_honest=0.030 pn_poison=0.031 | t=3.7s
+wandb: WARNING Tried to log to step 12 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:00,029 INFO [cifar10] Round  13/60 | acc=14.24% | loss=2.2720 | detected=1/2 (50%) | pn_honest=0.055 pn_poison=0.053 | t=3.6s
+wandb: WARNING Tried to log to step 13 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:03,695 INFO [cifar10] Round  14/60 | acc=12.09% | loss=2.3965 | detected=0/2 (0%) | pn_honest=0.027 pn_poison=0.027 | t=3.7s
+wandb: WARNING Tried to log to step 14 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:07,370 INFO [cifar10] Round  15/60 | acc=13.37% | loss=2.4490 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.030 | t=3.7s
+wandb: WARNING Tried to log to step 15 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:11,134 INFO [cifar10] Round  16/60 | acc=9.03% | loss=3.6922 | detected=0/2 (0%) | pn_honest=0.031 pn_poison=0.031 | t=3.8s
+wandb: WARNING Tried to log to step 16 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:14,853 INFO [cifar10] Round  17/60 | acc=11.01% | loss=2.3766 | detected=1/2 (50%) | pn_honest=0.033 pn_poison=0.036 | t=3.7s
+wandb: WARNING Tried to log to step 17 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:18,583 INFO [cifar10] Round  18/60 | acc=15.10% | loss=2.2296 | detected=1/2 (50%) | pn_honest=0.029 pn_poison=0.030 | t=3.7s
+wandb: WARNING Tried to log to step 18 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:22,452 INFO [cifar10] Round  19/60 | acc=11.30% | loss=2.3947 | detected=0/2 (0%) | pn_honest=0.032 pn_poison=0.031 | t=3.9s
+wandb: WARNING Tried to log to step 19 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:26,324 INFO [cifar10] Round  20/60 | acc=11.15% | loss=2.5149 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.029 | t=3.9s
+wandb: WARNING Tried to log to step 20 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:30,109 INFO [cifar10] Round  21/60 | acc=14.96% | loss=2.2888 | detected=1/2 (50%) | pn_honest=0.030 pn_poison=0.031 | t=3.8s
+wandb: WARNING Tried to log to step 21 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:34,585 INFO [cifar10] Round  22/60 | acc=12.66% | loss=2.7255 | detected=0/2 (0%) | pn_honest=0.030 pn_poison=0.031 | t=4.5s
+wandb: WARNING Tried to log to step 22 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:38,344 INFO [cifar10] Round  23/60 | acc=11.61% | loss=5.2915 | detected=0/2 (0%) | pn_honest=0.033 pn_poison=0.033 | t=3.8s
+wandb: WARNING Tried to log to step 23 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:42,108 INFO [cifar10] Round  24/60 | acc=9.91% | loss=31.5978 | detected=0/2 (0%) | pn_honest=0.043 pn_poison=0.042 | t=3.8s
+wandb: WARNING Tried to log to step 24 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:46,051 INFO [cifar10] Round  25/60 | acc=14.15% | loss=2.3069 | detected=1/2 (50%) | pn_honest=0.158 pn_poison=0.145 | t=3.9s
+wandb: WARNING Tried to log to step 25 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:49,935 INFO [cifar10] Round  26/60 | acc=10.60% | loss=2.3201 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.028 | t=3.9s
+wandb: WARNING Tried to log to step 26 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:53,799 INFO [cifar10] Round  27/60 | acc=20.02% | loss=2.2405 | detected=1/2 (50%) | pn_honest=0.031 pn_poison=0.029 | t=3.9s
+wandb: WARNING Tried to log to step 27 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:39:57,731 INFO [cifar10] Round  28/60 | acc=14.27% | loss=2.3326 | detected=0/2 (0%) | pn_honest=0.035 pn_poison=0.035 | t=3.9s
+wandb: WARNING Tried to log to step 28 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:01,965 INFO [cifar10] Round  29/60 | acc=36.67% | loss=1.8198 | detected=2/2 (100%) | pn_honest=0.033 pn_poison=0.029 | t=4.2s
+wandb: WARNING Tried to log to step 29 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:06,351 INFO [cifar10] Round  30/60 | acc=34.73% | loss=1.8495 | detected=0/2 (0%) | pn_honest=0.027 pn_poison=0.028 | t=4.4s
+wandb: WARNING Tried to log to step 30 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:10,120 INFO [cifar10] Round  31/60 | acc=36.58% | loss=1.7891 | detected=1/2 (50%) | pn_honest=0.028 pn_poison=0.028 | t=3.8s
+wandb: WARNING Tried to log to step 31 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:13,805 INFO [cifar10] Round  32/60 | acc=39.10% | loss=1.7287 | detected=1/2 (50%) | pn_honest=0.030 pn_poison=0.029 | t=3.7s
+wandb: WARNING Tried to log to step 32 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:17,564 INFO [cifar10] Round  33/60 | acc=34.35% | loss=1.8373 | detected=0/2 (0%) | pn_honest=0.029 pn_poison=0.030 | t=3.8s
+wandb: WARNING Tried to log to step 33 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:21,389 INFO [cifar10] Round  34/60 | acc=46.25% | loss=1.5093 | detected=2/2 (100%) | pn_honest=0.031 pn_poison=0.031 | t=3.8s
+wandb: WARNING Tried to log to step 34 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:25,148 INFO [cifar10] Round  35/60 | acc=47.45% | loss=1.4852 | detected=1/2 (50%) | pn_honest=0.027 pn_poison=0.025 | t=3.7s
+wandb: WARNING Tried to log to step 35 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:28,862 INFO [cifar10] Round  36/60 | acc=39.46% | loss=1.7766 | detected=0/2 (0%) | pn_honest=0.028 pn_poison=0.028 | t=3.7s
+wandb: WARNING Tried to log to step 36 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:32,619 INFO [cifar10] Round  37/60 | acc=34.46% | loss=2.2203 | detected=0/2 (0%) | pn_honest=0.032 pn_poison=0.032 | t=3.8s
+wandb: WARNING Tried to log to step 37 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:36,343 INFO [cifar10] Round  38/60 | acc=39.24% | loss=2.0465 | detected=1/2 (50%) | pn_honest=0.035 pn_poison=0.040 | t=3.7s
+wandb: WARNING Tried to log to step 38 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:40,370 INFO [cifar10] Round  39/60 | acc=49.77% | loss=1.4100 | detected=2/2 (100%) | pn_honest=0.034 pn_poison=0.037 | t=4.0s
+wandb: WARNING Tried to log to step 39 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:44,287 INFO [cifar10] Round  40/60 | acc=47.66% | loss=1.4533 | detected=1/2 (50%) | pn_honest=0.030 pn_poison=0.031 | t=3.9s
+wandb: WARNING Tried to log to step 40 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:47,997 INFO [cifar10] Round  41/60 | acc=43.24% | loss=1.6354 | detected=0/2 (0%) | pn_honest=0.030 pn_poison=0.032 | t=3.7s
+wandb: WARNING Tried to log to step 41 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:51,783 INFO [cifar10] Round  42/60 | acc=45.50% | loss=1.6315 | detected=1/2 (50%) | pn_honest=0.034 pn_poison=0.037 | t=3.8s
+wandb: WARNING Tried to log to step 42 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:55,480 INFO [cifar10] Round  43/60 | acc=52.48% | loss=1.3315 | detected=2/2 (100%) | pn_honest=0.036 pn_poison=0.040 | t=3.7s
+wandb: WARNING Tried to log to step 43 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:40:59,216 INFO [cifar10] Round  44/60 | acc=48.82% | loss=1.4588 | detected=0/2 (0%) | pn_honest=0.033 pn_poison=0.034 | t=3.7s
+wandb: WARNING Tried to log to step 44 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:02,951 INFO [cifar10] Round  45/60 | acc=49.55% | loss=1.4682 | detected=1/2 (50%) | pn_honest=0.036 pn_poison=0.040 | t=3.7s
+wandb: WARNING Tried to log to step 45 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:06,790 INFO [cifar10] Round  46/60 | acc=54.60% | loss=1.2771 | detected=2/2 (100%) | pn_honest=0.038 pn_poison=0.049 | t=3.8s
+wandb: WARNING Tried to log to step 46 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:10,525 INFO [cifar10] Round  47/60 | acc=54.65% | loss=1.2670 | detected=1/2 (50%) | pn_honest=0.035 pn_poison=0.040 | t=3.7s
+wandb: WARNING Tried to log to step 47 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:14,260 INFO [cifar10] Round  48/60 | acc=54.59% | loss=1.2872 | detected=1/2 (50%) | pn_honest=0.036 pn_poison=0.041 | t=3.7s
+wandb: WARNING Tried to log to step 48 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:18,134 INFO [cifar10] Round  49/60 | acc=57.95% | loss=1.1808 | detected=2/2 (100%) | pn_honest=0.039 pn_poison=0.046 | t=3.9s
+wandb: WARNING Tried to log to step 49 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:22,126 INFO [cifar10] Round  50/60 | acc=60.14% | loss=1.1246 | detected=2/2 (100%) | pn_honest=0.037 pn_poison=0.041 | t=4.0s
+wandb: WARNING Tried to log to step 50 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:25,926 INFO [cifar10] Round  51/60 | acc=61.94% | loss=1.0839 | detected=2/2 (100%) | pn_honest=0.039 pn_poison=0.044 | t=3.8s
+wandb: WARNING Tried to log to step 51 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:29,666 INFO [cifar10] Round  52/60 | acc=58.68% | loss=1.1995 | detected=0/2 (0%) | pn_honest=0.039 pn_poison=0.041 | t=3.7s
+wandb: WARNING Tried to log to step 52 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:33,330 INFO [cifar10] Round  53/60 | acc=58.38% | loss=1.2471 | detected=1/2 (50%) | pn_honest=0.043 pn_poison=0.050 | t=3.7s
+wandb: WARNING Tried to log to step 53 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:37,029 INFO [cifar10] Round  54/60 | acc=54.86% | loss=1.5853 | detected=1/2 (50%) | pn_honest=0.045 pn_poison=0.052 | t=3.7s
+wandb: WARNING Tried to log to step 54 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:40,705 INFO [cifar10] Round  55/60 | acc=61.57% | loss=1.0948 | detected=2/2 (100%) | pn_honest=0.050 pn_poison=0.063 | t=3.7s
+wandb: WARNING Tried to log to step 55 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:44,548 INFO [cifar10] Round  56/60 | acc=63.22% | loss=1.0494 | detected=2/2 (100%) | pn_honest=0.045 pn_poison=0.053 | t=3.8s
+wandb: WARNING Tried to log to step 56 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:48,316 INFO [cifar10] Round  57/60 | acc=64.39% | loss=1.0118 | detected=2/2 (100%) | pn_honest=0.044 pn_poison=0.053 | t=3.8s
+wandb: WARNING Tried to log to step 57 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:52,042 INFO [cifar10] Round  58/60 | acc=62.75% | loss=1.0984 | detected=1/2 (50%) | pn_honest=0.045 pn_poison=0.054 | t=3.7s
+wandb: WARNING Tried to log to step 58 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:55,855 INFO [cifar10] Round  59/60 | acc=64.90% | loss=1.0058 | detected=2/2 (100%) | pn_honest=0.047 pn_poison=0.056 | t=3.8s
+wandb: WARNING Tried to log to step 59 that is less than the current step 60. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 14:41:59,821 INFO [cifar10] Round  60/60 | acc=62.88% | loss=1.1654 | detected=1/2 (50%) | pn_honest=0.046 pn_poison=0.052 | t=4.0s
+2026-06-22 14:41:59,823 INFO
+[cifar10] FINAL: acc=62.88%, avg_detection=38.33%, best_acc=64.90%
+2026-06-22 14:41:59,887 INFO
+============================================================
+2026-06-22 14:41:59,888 INFO SUMMARY
+2026-06-22 14:41:59,889 INFO   MNIST: acc=97.77%, detection=87.50%
+2026-06-22 14:41:59,890 INFO   CIFAR-10: acc=62.88%, detection=38.33%
+2026-06-22 14:41:59,890 INFO   Average acc=80.33%, detection=62.92%
+2026-06-22 14:41:59,891 INFO ============================================================
+2026-06-22 14:42:00,521 INFO Saved figure: /workspace/output/figures/accuracy_under_attack.png

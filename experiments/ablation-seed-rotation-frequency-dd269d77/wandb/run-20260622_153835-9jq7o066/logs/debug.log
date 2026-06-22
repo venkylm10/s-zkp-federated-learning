@@ -1,0 +1,24 @@
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_setup.py:_flush():81] Configure stats pid to 4721
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /workspace/output/code/wandb/run-20260622_153835-9jq7o066/logs/debug.log
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /workspace/output/code/wandb/run-20260622_153835-9jq7o066/logs/debug-internal.log
+2026-06-22 15:38:35,009 INFO    MainThread:4721 [wandb_init.py:init():766] calling init triggers
+2026-06-22 15:38:35,010 INFO    MainThread:4721 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'proj_dim': 128, 'n_clients': 10, 'n_byzantine': 2, 'seed': 42, 'atk_scale': 5.0, 'sigma': 3.0, 'defense': 'szkp', 'attack': 'null_space_dynamic', 'mnist_rounds': 15, 'mnist_local_epochs': 3, 'mnist_lr': 0.05, 'cifar10_rounds': 20, 'cifar10_local_epochs': 5, 'cifar10_lr': 0.1, '_wandb': {}}
+2026-06-22 15:38:35,010 INFO    MainThread:4721 [wandb_init.py:init():814] starting backend
+2026-06-22 15:38:35,010 INFO    MainThread:4721 [wandb_init.py:init():829] sending inform_init request
+2026-06-22 15:38:35,182 INFO    MainThread:4721 [wandb_init.py:init():834] backend started and connected
+2026-06-22 15:38:35,206 INFO    MainThread:4721 [wandb_init.py:init():904] updated telemetry
+2026-06-22 15:38:35,208 INFO    MainThread:4721 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-22 15:38:35,425 INFO    MainThread:4721 [wandb_init.py:init():972] starting run threads in backend
+2026-06-22 15:38:35,528 INFO    MainThread:4721 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-22 15:38:35,528 INFO    MainThread:4721 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-22 15:38:35,529 INFO    MainThread:4721 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-22 15:38:35,529 INFO    MainThread:4721 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-22 15:38:35,533 INFO    MainThread:4721 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-22 15:59:30,761 INFO    MainThread:4721 [wandb_run.py:_finish():2285] finishing run ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/9jq7o066
+2026-06-22 15:59:30,762 INFO    MainThread:4721 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-06-22 15:59:30,762 INFO    MainThread:4721 [wandb_run.py:_restore():2472] restore
+2026-06-22 15:59:30,762 INFO    MainThread:4721 [wandb_run.py:_restore():2478] restore done
+2026-06-22 15:59:31,398 INFO    MainThread:4721 [wandb_run.py:_footer_sync_info():3891] logging synced files

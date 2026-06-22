@@ -1,0 +1,177 @@
+2026-06-22 16:07:36,922 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/9jq7o066
+2026-06-22 16:07:36,924 INFO
+>>> mnist/szkp [CACHED — loading from /workspace/output/run_cache_mnist_szkp.json]
+2026-06-22 16:07:36,925 INFO
+>>> mnist/norm_clip [CACHED — loading from /workspace/output/run_cache_mnist_norm_clip.json]
+2026-06-22 16:07:36,926 INFO
+>>> mnist/no_defense [CACHED — loading from /workspace/output/run_cache_mnist_no_defense.json]
+2026-06-22 16:07:36,929 INFO
+>>> cifar10/szkp [CACHED — loading from /workspace/output/run_cache_cifar10_szkp.json]
+2026-06-22 16:07:36,931 INFO
+>>> cifar10/norm_clip
+2026-06-22 16:07:36,932 INFO
+============================================================
+DS=CIFAR10  defense=norm_clip  rounds=20
+============================================================
+2026-06-22 16:07:38,616 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 16:07:38,618 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 16:07:38,625 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 16:07:38,642 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:07:38,682 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:07:38,709 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/revision/0b2714987fa478483af9968de7c934580d0bb9a2 "HTTP/1.1 200 OK"
+2026-06-22 16:07:38,728 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 16:07:38,787 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 16:07:38,821 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 16:07:38,852 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 16:07:38,889 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 16:07:59,782 INFO   cifar10: train torch.Size([50000, 3, 32, 32]), test torch.Size([10000, 3, 32, 32])
+2026-06-22 16:08:00,051 INFO   Model D=965,582 (params+buffers)
+2026-06-22 16:08:11,664 INFO [cifar10/norm_clip] R  1/20 | acc=35.06% | det=0/2 (0%) | pnorms: honest=241.370 byz=241.253 | thresh=723.760 | 11.6s
+2026-06-22 16:08:11,665 INFO [step 1] loss=1.7410 lr=0.0500
+2026-06-22 16:08:11,665 INFO === epoch 1 done | acc=35.06% elapsed=11.6s ===
+2026-06-22 16:08:20,138 INFO [cifar10/norm_clip] R  2/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=241.343 byz=962.918 | thresh=721.345 | 8.5s
+2026-06-22 16:08:20,138 INFO [step 2] loss=nan lr=0.0497
+2026-06-22 16:08:20,139 INFO === epoch 2 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:08:28,436 INFO [cifar10/norm_clip] R  3/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=240.434 byz=961.783 | thresh=721.282 | 8.3s
+2026-06-22 16:08:28,437 INFO [step 3] loss=nan lr=0.0488
+2026-06-22 16:08:28,437 INFO === epoch 3 done | acc=10.00% elapsed=8.3s ===
+2026-06-22 16:08:36,821 INFO [cifar10/norm_clip] R  4/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=240.327 byz=961.160 | thresh=721.014 | 8.4s
+2026-06-22 16:08:36,821 INFO [step 4] loss=nan lr=0.0473
+2026-06-22 16:08:36,822 INFO === epoch 4 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:08:45,214 INFO [cifar10/norm_clip] R  5/20 | acc=48.73% | det=0/2 (0%) | pnorms: honest=240.234 byz=961.054 | thresh=720.717 | 8.4s
+2026-06-22 16:08:45,215 INFO [step 5] loss=1.3863 lr=0.0452
+2026-06-22 16:08:45,216 INFO === epoch 5 done | acc=48.73% elapsed=8.4s ===
+2026-06-22 16:08:53,614 INFO [cifar10/norm_clip] R  6/20 | acc=53.76% | det=0/2 (0%) | pnorms: honest=240.217 byz=960.806 | thresh=720.669 | 8.4s
+2026-06-22 16:08:53,614 INFO [step 6] loss=1.2375 lr=0.0427
+2026-06-22 16:08:53,615 INFO === epoch 6 done | acc=53.76% elapsed=8.4s ===
+2026-06-22 16:09:02,127 INFO [cifar10/norm_clip] R  7/20 | acc=56.27% | det=0/2 (0%) | pnorms: honest=240.177 byz=960.769 | thresh=720.552 | 8.5s
+2026-06-22 16:09:02,127 INFO [step 7] loss=1.1624 lr=0.0397
+2026-06-22 16:09:02,128 INFO === epoch 7 done | acc=56.27% elapsed=8.5s ===
+2026-06-22 16:09:10,556 INFO [cifar10/norm_clip] R  8/20 | acc=63.31% | det=0/2 (0%) | pnorms: honest=240.153 byz=960.584 | thresh=720.443 | 8.4s
+2026-06-22 16:09:10,556 INFO [step 8] loss=1.0108 lr=0.0363
+2026-06-22 16:09:10,557 INFO === epoch 8 done | acc=63.31% elapsed=8.4s ===
+2026-06-22 16:09:19,069 INFO [cifar10/norm_clip] R  9/20 | acc=65.38% | det=0/2 (0%) | pnorms: honest=240.120 byz=960.494 | thresh=720.373 | 8.5s
+2026-06-22 16:09:19,070 INFO [step 9] loss=0.9628 lr=0.0327
+2026-06-22 16:09:19,071 INFO === epoch 9 done | acc=65.38% elapsed=8.5s ===
+2026-06-22 16:09:27,692 INFO [cifar10/norm_clip] R 10/20 | acc=66.12% | det=0/2 (0%) | pnorms: honest=240.095 byz=960.454 | thresh=720.294 | 8.6s
+2026-06-22 16:09:27,692 INFO [step 10] loss=0.9562 lr=0.0289
+2026-06-22 16:09:27,693 INFO === epoch 10 done | acc=66.12% elapsed=8.6s ===
+2026-06-22 16:09:36,194 INFO [cifar10/norm_clip] R 11/20 | acc=66.16% | det=0/2 (0%) | pnorms: honest=240.091 byz=960.357 | thresh=720.248 | 8.5s
+2026-06-22 16:09:36,195 INFO [step 11] loss=0.9422 lr=0.0250
+2026-06-22 16:09:36,196 INFO === epoch 11 done | acc=66.16% elapsed=8.5s ===
+2026-06-22 16:09:44,711 INFO [cifar10/norm_clip] R 12/20 | acc=66.98% | det=0/2 (0%) | pnorms: honest=240.069 byz=960.325 | thresh=720.212 | 8.5s
+2026-06-22 16:09:44,712 INFO [step 12] loss=0.9131 lr=0.0211
+2026-06-22 16:09:44,713 INFO === epoch 12 done | acc=66.98% elapsed=8.5s ===
+2026-06-22 16:09:53,285 INFO [cifar10/norm_clip] R 13/20 | acc=70.44% | det=0/2 (0%) | pnorms: honest=240.053 byz=960.265 | thresh=720.160 | 8.6s
+2026-06-22 16:09:53,286 INFO [step 13] loss=0.8291 lr=0.0173
+2026-06-22 16:09:53,287 INFO === epoch 13 done | acc=70.44% elapsed=8.6s ===
+2026-06-22 16:10:02,471 INFO [cifar10/norm_clip] R 14/20 | acc=71.39% | det=0/2 (0%) | pnorms: honest=240.038 byz=960.205 | thresh=720.117 | 9.2s
+2026-06-22 16:10:02,473 INFO [step 14] loss=0.8021 lr=0.0137
+2026-06-22 16:10:02,474 INFO === epoch 14 done | acc=71.39% elapsed=9.2s ===
+2026-06-22 16:10:11,708 INFO [cifar10/norm_clip] R 15/20 | acc=71.95% | det=0/2 (0%) | pnorms: honest=240.028 byz=960.152 | thresh=720.091 | 9.2s
+2026-06-22 16:10:11,709 INFO [step 15] loss=0.7907 lr=0.0103
+2026-06-22 16:10:11,711 INFO === epoch 15 done | acc=71.95% elapsed=9.2s ===
+2026-06-22 16:10:20,851 INFO [cifar10/norm_clip] R 16/20 | acc=72.38% | det=0/2 (0%) | pnorms: honest=240.019 byz=960.109 | thresh=720.059 | 9.1s
+2026-06-22 16:10:20,852 INFO [step 16] loss=0.7797 lr=0.0073
+2026-06-22 16:10:20,852 INFO === epoch 16 done | acc=72.38% elapsed=9.1s ===
+2026-06-22 16:10:29,384 INFO [cifar10/norm_clip] R 17/20 | acc=72.86% | det=0/2 (0%) | pnorms: honest=240.011 byz=960.078 | thresh=720.035 | 8.5s
+2026-06-22 16:10:29,384 INFO [step 17] loss=0.7636 lr=0.0048
+2026-06-22 16:10:29,385 INFO === epoch 17 done | acc=72.86% elapsed=8.5s ===
+2026-06-22 16:10:37,843 INFO [cifar10/norm_clip] R 18/20 | acc=73.60% | det=0/2 (0%) | pnorms: honest=240.005 byz=960.045 | thresh=720.017 | 8.4s
+2026-06-22 16:10:37,843 INFO [step 18] loss=0.7534 lr=0.0027
+2026-06-22 16:10:37,844 INFO === epoch 18 done | acc=73.60% elapsed=8.4s ===
+2026-06-22 16:10:46,286 INFO [cifar10/norm_clip] R 19/20 | acc=73.74% | det=0/2 (0%) | pnorms: honest=240.002 byz=960.032 | thresh=720.007 | 8.4s
+2026-06-22 16:10:46,287 INFO [step 19] loss=0.7503 lr=0.0012
+2026-06-22 16:10:46,288 INFO === epoch 19 done | acc=73.74% elapsed=8.4s ===
+2026-06-22 16:10:54,775 INFO [cifar10/norm_clip] R 20/20 | acc=73.55% | det=0/2 (0%) | pnorms: honest=240.001 byz=960.022 | thresh=720.003 | 8.5s
+2026-06-22 16:10:54,775 INFO [step 20] loss=0.7491 lr=0.0003
+2026-06-22 16:10:54,776 INFO === epoch 20 done | acc=73.55% elapsed=8.5s ===
+2026-06-22 16:10:54,777 INFO [cifar10/norm_clip] DONE | best_acc=73.74% | avg_det=0.00%
+2026-06-22 16:10:54,783 INFO
+>>> cifar10/no_defense
+2026-06-22 16:10:54,784 INFO
+============================================================
+DS=CIFAR10  defense=no_defense  rounds=20
+============================================================
+2026-06-22 16:10:54,813 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 16:10:54,819 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 16:10:54,835 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:10:54,976 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:10:54,997 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 16:10:55,041 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 16:10:55,068 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 16:11:12,947 INFO   cifar10: train torch.Size([50000, 3, 32, 32]), test torch.Size([10000, 3, 32, 32])
+2026-06-22 16:11:13,026 INFO   Model D=965,582 (params+buffers)
+2026-06-22 16:11:21,374 INFO [cifar10/no_defense] R  1/20 | acc=35.06% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.3s
+2026-06-22 16:11:21,375 INFO [step 1] loss=1.7410 lr=0.0500
+2026-06-22 16:11:21,375 INFO === epoch 1 done | acc=35.06% elapsed=8.3s ===
+2026-06-22 16:11:29,773 INFO [cifar10/no_defense] R  2/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.4s
+2026-06-22 16:11:29,773 INFO [step 2] loss=nan lr=0.0497
+2026-06-22 16:11:29,774 INFO === epoch 2 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:11:38,215 INFO [cifar10/no_defense] R  3/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.4s
+2026-06-22 16:11:38,215 INFO [step 3] loss=nan lr=0.0488
+2026-06-22 16:11:38,216 INFO === epoch 3 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:11:46,669 INFO [cifar10/no_defense] R  4/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.4s
+2026-06-22 16:11:46,670 INFO [step 4] loss=nan lr=0.0473
+2026-06-22 16:11:46,670 INFO === epoch 4 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:11:55,328 INFO [cifar10/no_defense] R  5/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.7s
+2026-06-22 16:11:55,329 INFO [step 5] loss=nan lr=0.0452
+2026-06-22 16:11:55,329 INFO === epoch 5 done | acc=10.00% elapsed=8.7s ===
+2026-06-22 16:12:03,862 INFO [cifar10/no_defense] R  6/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:12:03,863 INFO [step 6] loss=nan lr=0.0427
+2026-06-22 16:12:03,863 INFO === epoch 6 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:12:12,375 INFO [cifar10/no_defense] R  7/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:12:12,376 INFO [step 7] loss=nan lr=0.0397
+2026-06-22 16:12:12,376 INFO === epoch 7 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:12:20,887 INFO [cifar10/no_defense] R  8/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:12:20,888 INFO [step 8] loss=nan lr=0.0363
+2026-06-22 16:12:20,888 INFO === epoch 8 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:12:29,422 INFO [cifar10/no_defense] R  9/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:12:29,422 INFO [step 9] loss=nan lr=0.0327
+2026-06-22 16:12:29,423 INFO === epoch 9 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:12:37,874 INFO [cifar10/no_defense] R 10/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.4s
+2026-06-22 16:12:37,874 INFO [step 10] loss=nan lr=0.0289
+2026-06-22 16:12:37,875 INFO === epoch 10 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:12:46,397 INFO [cifar10/no_defense] R 11/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:12:46,398 INFO [step 11] loss=nan lr=0.0250
+2026-06-22 16:12:46,398 INFO === epoch 11 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:12:54,854 INFO [cifar10/no_defense] R 12/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.4s
+2026-06-22 16:12:54,854 INFO [step 12] loss=nan lr=0.0211
+2026-06-22 16:12:54,855 INFO === epoch 12 done | acc=10.00% elapsed=8.4s ===
+2026-06-22 16:13:03,547 INFO [cifar10/no_defense] R 13/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.7s
+2026-06-22 16:13:03,548 INFO [step 13] loss=nan lr=0.0173
+2026-06-22 16:13:03,548 INFO === epoch 13 done | acc=10.00% elapsed=8.7s ===
+2026-06-22 16:13:12,079 INFO [cifar10/no_defense] R 14/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:12,080 INFO [step 14] loss=nan lr=0.0137
+2026-06-22 16:13:12,080 INFO === epoch 14 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:13:20,576 INFO [cifar10/no_defense] R 15/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:20,577 INFO [step 15] loss=nan lr=0.0103
+2026-06-22 16:13:20,577 INFO === epoch 15 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:13:29,112 INFO [cifar10/no_defense] R 16/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:29,113 INFO [step 16] loss=nan lr=0.0073
+2026-06-22 16:13:29,113 INFO === epoch 16 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:13:37,597 INFO [cifar10/no_defense] R 17/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:37,598 INFO [step 17] loss=nan lr=0.0048
+2026-06-22 16:13:37,598 INFO === epoch 17 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:13:46,146 INFO [cifar10/no_defense] R 18/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:46,147 INFO [step 18] loss=nan lr=0.0027
+2026-06-22 16:13:46,147 INFO === epoch 18 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:13:54,610 INFO [cifar10/no_defense] R 19/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:13:54,611 INFO [step 19] loss=nan lr=0.0012
+2026-06-22 16:13:54,611 INFO === epoch 19 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:14:03,105 INFO [cifar10/no_defense] R 20/20 | acc=10.00% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 8.5s
+2026-06-22 16:14:03,106 INFO [step 20] loss=nan lr=0.0003
+2026-06-22 16:14:03,106 INFO === epoch 20 done | acc=10.00% elapsed=8.5s ===
+2026-06-22 16:14:03,107 INFO [cifar10/no_defense] DONE | best_acc=35.06% | avg_det=0.00%
+2026-06-22 16:14:03,113 INFO
+============================================================
+2026-06-22 16:14:03,113 INFO FINAL RESULTS (S-ZKP):
+2026-06-22 16:14:03,114 INFO   MNIST:   acc=97.54%  det=93.33%
+2026-06-22 16:14:03,114 INFO   CIFAR10: acc=10.05%  det=95.00%
+2026-06-22 16:14:03,115 INFO   Combined detection: 94.17%
+2026-06-22 16:14:03,115 INFO   Proof gen latency:  2.947ms
+2026-06-22 16:14:03,115 INFO   Verification latency: 2.061ms
+2026-06-22 16:14:03,116 INFO ============================================================
+2026-06-22 16:14:03,742 INFO Saved: /workspace/output/figures/s_zkp_vs_baselines.png
+2026-06-22 16:14:04,472 INFO Saved: /workspace/output/figures/proof_latency_distribution.png

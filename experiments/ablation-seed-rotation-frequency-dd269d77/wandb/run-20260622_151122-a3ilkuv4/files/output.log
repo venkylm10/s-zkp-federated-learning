@@ -1,0 +1,124 @@
+2026-06-22 15:11:23,592 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/a3ilkuv4
+2026-06-22 15:11:23,592 INFO
+>>> Starting mnist/szkp
+2026-06-22 15:11:23,593 INFO
+============================================================
+DS=MNIST  defense=szkp  rounds=30
+============================================================
+2026-06-22 15:11:24,784 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:11:24,790 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:11:24,806 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:11:24,843 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:11:24,865 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/revision/77f3279092a1c1579b2250db8eafed0ad422088c "HTTP/1.1 200 OK"
+2026-06-22 15:11:24,886 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 15:11:24,887 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 15:11:24,956 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:11:24,979 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c/mnist?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:11:25,000 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:11:25,023 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:11:39,547 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:11:39,825 INFO   Model D=537,354
+2026-06-22 15:11:54,676 INFO [mnist/szkp] R  1/30 | acc=94.09% loss=0.9221 | det=0/2 (0%) | pf_lat=2.38ms vf_lat=9.40ms | 14.8s
+2026-06-22 15:12:09,498 INFO [mnist/szkp] R  2/30 | acc=92.36% loss=0.9337 | det=0/2 (0%) | pf_lat=3.63ms vf_lat=116.89ms | 14.8s
+2026-06-22 15:12:23,793 INFO [mnist/szkp] R  3/30 | acc=88.87% loss=1.0387 | det=0/2 (0%) | pf_lat=2.81ms vf_lat=195.33ms | 14.3s
+2026-06-22 15:12:37,451 INFO [mnist/szkp] R  4/30 | acc=77.43% loss=1.1841 | det=0/2 (0%) | pf_lat=2.26ms vf_lat=227.81ms | 13.6s
+2026-06-22 15:12:51,552 INFO [mnist/szkp] R  5/30 | acc=56.59% loss=1.4038 | det=0/2 (0%) | pf_lat=2.35ms vf_lat=195.34ms | 14.1s
+2026-06-22 15:13:03,384 INFO [mnist/szkp] R  6/30 | acc=22.81% loss=2.1227 | det=0/2 (0%) | pf_lat=2.13ms vf_lat=55.27ms | 11.8s
+2026-06-22 15:13:13,764 INFO [mnist/szkp] R  7/30 | acc=11.50% loss=3.9120 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=53.73ms | 10.4s
+2026-06-22 15:13:24,420 INFO [mnist/szkp] R  8/30 | acc=9.16% loss=7.2224 | det=0/2 (0%) | pf_lat=2.45ms vf_lat=91.42ms | 10.6s
+2026-06-22 15:13:36,359 INFO [mnist/szkp] R  9/30 | acc=93.61% loss=0.2542 | det=2/2 (100%) | pf_lat=3.34ms vf_lat=155.63ms | 11.9s
+2026-06-22 15:13:48,342 INFO [mnist/szkp] R 10/30 | acc=91.22% loss=0.3140 | det=0/2 (0%) | pf_lat=2.43ms vf_lat=74.42ms | 12.0s
+2026-06-22 15:14:00,403 INFO [mnist/szkp] R 11/30 | acc=83.93% loss=0.5423 | det=0/2 (0%) | pf_lat=2.70ms vf_lat=170.84ms | 12.1s
+2026-06-22 15:14:11,456 INFO [mnist/szkp] R 12/30 | acc=50.77% loss=1.9479 | det=0/2 (0%) | pf_lat=2.14ms vf_lat=91.15ms | 11.0s
+2026-06-22 15:14:22,874 INFO [mnist/szkp] R 13/30 | acc=27.34% loss=5.0294 | det=0/2 (0%) | pf_lat=2.55ms vf_lat=108.79ms | 11.4s
+2026-06-22 15:14:35,367 INFO [mnist/szkp] R 14/30 | acc=56.06% loss=1.9574 | det=1/2 (50%) | pf_lat=2.19ms vf_lat=197.73ms | 12.5s
+2026-06-22 15:14:45,993 INFO [mnist/szkp] R 15/30 | acc=27.19% loss=5.9906 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=86.22ms | 10.6s
+2026-06-22 15:14:57,918 INFO [mnist/szkp] R 16/30 | acc=44.81% loss=3.5861 | det=1/2 (50%) | pf_lat=2.68ms vf_lat=98.43ms | 11.9s
+2026-06-22 15:15:10,890 INFO [mnist/szkp] R 17/30 | acc=23.39% loss=10.9947 | det=0/2 (0%) | pf_lat=2.67ms vf_lat=210.39ms | 13.0s
+2026-06-22 15:15:21,424 INFO [mnist/szkp] R 18/30 | acc=87.76% loss=0.6911 | det=2/2 (100%) | pf_lat=2.24ms vf_lat=49.35ms | 10.5s
+2026-06-22 15:15:34,024 INFO [mnist/szkp] R 19/30 | acc=69.00% loss=2.3284 | det=0/2 (0%) | pf_lat=2.72ms vf_lat=211.61ms | 12.6s
+2026-06-22 15:15:46,338 INFO [mnist/szkp] R 20/30 | acc=41.41% loss=8.6830 | det=0/2 (0%) | pf_lat=2.45ms vf_lat=117.40ms | 12.3s
+2026-06-22 15:15:57,843 INFO [mnist/szkp] R 21/30 | acc=22.46% loss=20.3122 | det=0/2 (0%) | pf_lat=2.44ms vf_lat=102.80ms | 11.5s
+2026-06-22 15:16:10,341 INFO [mnist/szkp] R 22/30 | acc=82.22% loss=1.9398 | det=2/2 (100%) | pf_lat=2.21ms vf_lat=180.62ms | 12.5s
+2026-06-22 15:16:21,795 INFO [mnist/szkp] R 23/30 | acc=59.81% loss=6.1751 | det=0/2 (0%) | pf_lat=2.17ms vf_lat=94.36ms | 11.4s
+2026-06-22 15:16:32,179 INFO [mnist/szkp] R 24/30 | acc=24.17% loss=21.2913 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=50.91ms | 10.4s
+2026-06-22 15:16:41,750 INFO [mnist/szkp] R 25/30 | acc=13.43% loss=45.7992 | det=0/2 (0%) | pf_lat=2.10ms vf_lat=49.34ms | 9.6s
+2026-06-22 15:16:52,236 INFO [mnist/szkp] R 26/30 | acc=11.58% loss=57.4815 | det=0/2 (0%) | pf_lat=2.61ms vf_lat=59.47ms | 10.5s
+2026-06-22 15:17:02,695 INFO [mnist/szkp] R 27/30 | acc=9.93% loss=70.3227 | det=0/2 (0%) | pf_lat=2.24ms vf_lat=79.01ms | 10.5s
+2026-06-22 15:17:16,943 INFO [mnist/szkp] R 28/30 | acc=9.17% loss=74.1030 | det=0/2 (0%) | pf_lat=2.72ms vf_lat=202.61ms | 14.2s
+2026-06-22 15:17:30,326 INFO [mnist/szkp] R 29/30 | acc=9.42% loss=71.5698 | det=0/2 (0%) | pf_lat=2.17ms vf_lat=187.74ms | 13.4s
+2026-06-22 15:17:41,172 INFO [mnist/szkp] R 30/30 | acc=9.65% loss=70.0142 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=49.79ms | 10.8s
+2026-06-22 15:17:41,178 INFO Saved proof artifacts: /workspace/output/s_zkp_proof_artifacts/mnist_proofs.json
+2026-06-22 15:17:41,178 INFO [mnist/szkp] DONE | final_acc=9.65% | best_acc=94.09% | avg_det=13.33%
+2026-06-22 15:17:41,217 INFO
+>>> Starting mnist/norm_clip
+2026-06-22 15:17:41,218 INFO
+============================================================
+DS=MNIST  defense=norm_clip  rounds=30
+============================================================
+2026-06-22 15:17:41,327 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:17:41,333 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:17:41,352 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:17:41,395 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:17:41,419 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:17:41,467 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:17:41,488 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:17:55,371 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:17:55,467 INFO   Model D=537,354
+2026-06-22 15:18:05,139 INFO [mnist/norm_clip] R  1/30 | acc=94.09% loss=0.9221 | det=0/2 (0%) | pf_lat=1.78ms vf_lat=0.00ms | 9.7s
+2026-06-22 15:18:18,323 INFO [mnist/norm_clip] R  2/30 | acc=92.10% loss=0.9158 | det=2/2 (100%) | pf_lat=2.36ms vf_lat=0.00ms | 13.2s
+2026-06-22 15:18:28,695 INFO [mnist/norm_clip] R  3/30 | acc=90.46% loss=0.9339 | det=2/2 (100%) | pf_lat=2.80ms vf_lat=0.00ms | 10.4s
+2026-06-22 15:18:38,894 INFO [mnist/norm_clip] R  4/30 | acc=90.43% loss=1.0006 | det=2/2 (100%) | pf_lat=2.17ms vf_lat=0.00ms | 10.2s
+2026-06-22 15:18:51,310 INFO [mnist/norm_clip] R  5/30 | acc=89.65% loss=1.0903 | det=2/2 (100%) | pf_lat=3.27ms vf_lat=0.00ms | 12.4s
+2026-06-22 15:19:00,854 INFO [mnist/norm_clip] R  6/30 | acc=89.43% loss=1.1722 | det=2/2 (100%) | pf_lat=2.25ms vf_lat=0.00ms | 9.5s
+2026-06-22 15:19:10,510 INFO [mnist/norm_clip] R  7/30 | acc=88.10% loss=1.2738 | det=2/2 (100%) | pf_lat=2.08ms vf_lat=0.00ms | 9.7s
+2026-06-22 15:19:19,927 INFO [mnist/norm_clip] R  8/30 | acc=88.05% loss=1.3417 | det=2/2 (100%) | pf_lat=2.11ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:19:29,736 INFO [mnist/norm_clip] R  9/30 | acc=86.88% loss=1.4417 | det=2/2 (100%) | pf_lat=2.13ms vf_lat=0.00ms | 9.8s
+2026-06-22 15:19:39,067 INFO [mnist/norm_clip] R 10/30 | acc=88.00% loss=1.5158 | det=2/2 (100%) | pf_lat=2.12ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:19:48,518 INFO [mnist/norm_clip] R 11/30 | acc=86.81% loss=1.5971 | det=2/2 (100%) | pf_lat=2.09ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:19:57,954 INFO [mnist/norm_clip] R 12/30 | acc=82.99% loss=1.6820 | det=2/2 (100%) | pf_lat=2.14ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:20:07,159 INFO [mnist/norm_clip] R 13/30 | acc=81.06% loss=1.7613 | det=2/2 (100%) | pf_lat=2.24ms vf_lat=0.00ms | 9.2s
+2026-06-22 15:20:16,423 INFO [mnist/norm_clip] R 14/30 | acc=79.56% loss=1.8389 | det=2/2 (100%) | pf_lat=2.11ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:20:25,637 INFO [mnist/norm_clip] R 15/30 | acc=72.91% loss=1.9083 | det=2/2 (100%) | pf_lat=2.14ms vf_lat=0.00ms | 9.2s
+2026-06-22 15:20:35,752 INFO [mnist/norm_clip] R 16/30 | acc=68.23% loss=1.9603 | det=2/2 (100%) | pf_lat=2.17ms vf_lat=0.00ms | 10.1s
+2026-06-22 15:20:45,123 INFO [mnist/norm_clip] R 17/30 | acc=63.89% loss=2.0098 | det=2/2 (100%) | pf_lat=2.23ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:20:54,706 INFO [mnist/norm_clip] R 18/30 | acc=48.99% loss=2.0678 | det=1/2 (50%) | pf_lat=2.12ms vf_lat=0.00ms | 9.6s
+2026-06-22 15:21:03,794 INFO [mnist/norm_clip] R 19/30 | acc=52.01% loss=2.0746 | det=2/2 (100%) | pf_lat=2.15ms vf_lat=0.00ms | 9.1s
+2026-06-22 15:21:13,335 INFO [mnist/norm_clip] R 20/30 | acc=39.77% loss=2.1126 | det=1/2 (50%) | pf_lat=2.12ms vf_lat=0.00ms | 9.5s
+2026-06-22 15:21:22,759 INFO [mnist/norm_clip] R 21/30 | acc=28.03% loss=2.1850 | det=0/2 (0%) | pf_lat=2.23ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:21:32,207 INFO [mnist/norm_clip] R 22/30 | acc=50.32% loss=2.0967 | det=2/2 (100%) | pf_lat=2.16ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:21:41,341 INFO [mnist/norm_clip] R 23/30 | acc=28.06% loss=2.1683 | det=0/2 (0%) | pf_lat=2.11ms vf_lat=0.00ms | 9.1s
+2026-06-22 15:21:50,812 INFO [mnist/norm_clip] R 24/30 | acc=42.66% loss=2.1205 | det=2/2 (100%) | pf_lat=2.12ms vf_lat=0.00ms | 9.5s
+2026-06-22 15:22:00,186 INFO [mnist/norm_clip] R 25/30 | acc=18.95% loss=2.1944 | det=0/2 (0%) | pf_lat=2.29ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:22:09,564 INFO [mnist/norm_clip] R 26/30 | acc=12.73% loss=2.2894 | det=0/2 (0%) | pf_lat=2.10ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:22:18,915 INFO [mnist/norm_clip] R 27/30 | acc=11.59% loss=2.4041 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:22:28,132 INFO [mnist/norm_clip] R 28/30 | acc=10.53% loss=2.4748 | det=0/2 (0%) | pf_lat=2.09ms vf_lat=0.00ms | 9.2s
+2026-06-22 15:22:37,472 INFO [mnist/norm_clip] R 29/30 | acc=10.28% loss=2.5240 | det=0/2 (0%) | pf_lat=2.10ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:22:46,645 INFO [mnist/norm_clip] R 30/30 | acc=10.37% loss=2.5074 | det=0/2 (0%) | pf_lat=2.13ms vf_lat=0.00ms | 9.2s
+2026-06-22 15:22:46,647 INFO [mnist/norm_clip] DONE | final_acc=10.37% | best_acc=94.09% | avg_det=66.67%
+2026-06-22 15:22:46,650 INFO
+>>> Starting mnist/no_defense
+2026-06-22 15:22:46,651 INFO
+============================================================
+DS=MNIST  defense=no_defense  rounds=30
+============================================================
+2026-06-22 15:22:46,702 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:22:46,707 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:22:46,724 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:22:46,767 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:22:46,789 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:22:46,832 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:22:46,857 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:23:00,642 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:23:00,742 INFO   Model D=537,354
+2026-06-22 15:23:12,124 INFO [mnist/no_defense] R  1/30 | acc=94.09% loss=0.9221 | det=0/2 (0%) | pf_lat=1.95ms vf_lat=0.00ms | 11.4s
+2026-06-22 15:23:21,567 INFO [mnist/no_defense] R  2/30 | acc=92.36% loss=0.9337 | det=0/2 (0%) | pf_lat=2.13ms vf_lat=0.00ms | 9.4s
+2026-06-22 15:23:31,262 INFO [mnist/no_defense] R  3/30 | acc=88.87% loss=1.0387 | det=0/2 (0%) | pf_lat=2.10ms vf_lat=0.00ms | 9.7s
+2026-06-22 15:23:40,553 INFO [mnist/no_defense] R  4/30 | acc=77.43% loss=1.1841 | det=0/2 (0%) | pf_lat=2.12ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:23:49,822 INFO [mnist/no_defense] R  5/30 | acc=56.59% loss=1.4038 | det=0/2 (0%) | pf_lat=2.11ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:23:59,032 INFO [mnist/no_defense] R  6/30 | acc=22.81% loss=2.1227 | det=0/2 (0%) | pf_lat=2.15ms vf_lat=0.00ms | 9.2s
+2026-06-22 15:24:08,323 INFO [mnist/no_defense] R  7/30 | acc=11.50% loss=3.9120 | det=0/2 (0%) | pf_lat=2.16ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:24:17,615 INFO [mnist/no_defense] R  8/30 | acc=9.16% loss=7.2224 | det=0/2 (0%) | pf_lat=2.41ms vf_lat=0.00ms | 9.3s
+2026-06-22 15:24:27,072 INFO [mnist/no_defense] R  9/30 | acc=7.54% loss=9.9526 | det=0/2 (0%) | pf_lat=2.09ms vf_lat=0.00ms | 9.5s
+2026-06-22 15:24:36,644 INFO [mnist/no_defense] R 10/30 | acc=5.62% loss=13.5145 | det=0/2 (0%) | pf_lat=2.49ms vf_lat=0.00ms | 9.6s
