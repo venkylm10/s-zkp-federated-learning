@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            blxafbvsbngb59mzmwrceu9lvtuzxcxe:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 17
+                cpu_count_logical: 17
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "9223372036854771712"
+                        used: "7707500544"
+                email: ragidiabhinavreddy@gmail.com
+                executable: /usr/local/bin/python
+                gpu: NVIDIA L4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7424
+                      memoryTotal: "24152899584"
+                      name: NVIDIA L4
+                      uuid: GPU-bb9fc74e-a945-10e2-b5b2-ca6adfb54033
+                host: modal
+                memory:
+                    total: "259786653696"
+                os: Linux-4.19.0-gvisor-x86_64-with-glibc2.41
+                program: /workspace/output/code/train.py
+                python: CPython 3.11.15
+                root: /workspace/output/code
+                startedAt: "2026-06-22T14:34:09.202167Z"
+                writerId: blxafbvsbngb59mzmwrceu9lvtuzxcxe
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+                - 49
+                - 51
+            "3":
+                - 13
+                - 16
+            "4": 3.11.15
+            "5": 0.27.2
+            "12": 0.27.2
+            "13": linux-x86_64
+attack:
+    value: null_space
+batch_size:
+    value: 64
+defense:
+    value: static_projection
+local_epochs:
+    value: 2
+lr:
+    value: 0.01
+n_byzantine:
+    value: 2
+n_clients:
+    value: 10
+proj_dim:
+    value: 128
+rounds:
+    value: 60
+seed:
+    value: 42
