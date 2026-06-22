@@ -1,0 +1,1 @@
+{"round":49,"avg_train_loss":0.022810057525628584,"poison_detection_rate":0,"_wandb":{"runtime":1561},"num_accepted":10,"test_accuracy":99.38,"_step":49,"test_loss":0.018460095249302685,"num_rejected":0,"_runtime":1561,"_timestamp":1.7821406046906934e+09}
