@@ -1,0 +1,267 @@
+2026-06-22 15:48:16,218 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/9jq7o066
+2026-06-22 15:48:16,219 INFO
+>>> mnist/szkp
+2026-06-22 15:48:16,219 INFO
+============================================================
+DS=MNIST  defense=szkp  rounds=15
+============================================================
+2026-06-22 15:48:17,332 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 15:48:17,333 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 15:48:17,339 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:48:17,356 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:48:17,393 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:48:17,416 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/revision/77f3279092a1c1579b2250db8eafed0ad422088c "HTTP/1.1 200 OK"
+2026-06-22 15:48:17,442 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:48:17,475 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:48:17,497 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c/mnist?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:48:17,515 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:48:17,541 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:48:32,131 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:48:32,551 INFO   Model D=235,146
+2026-06-22 15:48:41,299 INFO [mnist/szkp] R  1/15 | acc=92.19% | det=0/2 (0%) | pnorms: honest=0.169 byz=0.171 | thresh=0.509 | 8.7s
+2026-06-22 15:48:41,300 INFO [step 1] loss=0.2668 lr=0.0500
+2026-06-22 15:48:41,300 INFO === epoch 1 done | acc=92.19% elapsed=8.7s ===
+wandb: WARNING Tried to log to step 1 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:48:47,239 INFO [mnist/szkp] R  2/15 | acc=94.57% | det=2/2 (100%) | pnorms: honest=0.069 byz=0.285 | thresh=0.213 | 5.9s
+2026-06-22 15:48:47,240 INFO [step 2] loss=0.1814 lr=0.0495
+2026-06-22 15:48:47,240 INFO === epoch 2 done | acc=94.57% elapsed=5.9s ===
+wandb: WARNING Tried to log to step 2 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:48:53,007 INFO [mnist/szkp] R  3/15 | acc=95.59% | det=2/2 (100%) | pnorms: honest=0.056 byz=0.230 | thresh=0.173 | 5.8s
+2026-06-22 15:48:53,008 INFO [step 3] loss=0.1398 lr=0.0478
+2026-06-22 15:48:53,009 INFO === epoch 3 done | acc=95.59% elapsed=5.8s ===
+wandb: WARNING Tried to log to step 3 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:48:58,823 INFO [mnist/szkp] R  4/15 | acc=96.24% | det=2/2 (100%) | pnorms: honest=0.052 byz=0.230 | thresh=0.155 | 5.8s
+2026-06-22 15:48:58,823 INFO [step 4] loss=0.1200 lr=0.0452
+2026-06-22 15:48:58,824 INFO === epoch 4 done | acc=96.24% elapsed=5.8s ===
+wandb: WARNING Tried to log to step 4 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:04,527 INFO [mnist/szkp] R  5/15 | acc=96.77% | det=2/2 (100%) | pnorms: honest=0.046 byz=0.211 | thresh=0.139 | 5.7s
+2026-06-22 15:49:04,528 INFO [step 5] loss=0.1034 lr=0.0417
+2026-06-22 15:49:04,529 INFO === epoch 5 done | acc=96.77% elapsed=5.7s ===
+wandb: WARNING Tried to log to step 5 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:10,196 INFO [mnist/szkp] R  6/15 | acc=97.01% | det=2/2 (100%) | pnorms: honest=0.038 byz=0.175 | thresh=0.115 | 5.7s
+2026-06-22 15:49:10,196 INFO [step 6] loss=0.0955 lr=0.0375
+2026-06-22 15:49:10,197 INFO === epoch 6 done | acc=97.01% elapsed=5.7s ===
+wandb: WARNING Tried to log to step 6 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:16,151 INFO [mnist/szkp] R  7/15 | acc=97.09% | det=2/2 (100%) | pnorms: honest=0.035 byz=0.169 | thresh=0.108 | 5.9s
+2026-06-22 15:49:16,151 INFO [step 7] loss=0.0891 lr=0.0327
+2026-06-22 15:49:16,152 INFO === epoch 7 done | acc=97.09% elapsed=5.9s ===
+wandb: WARNING Tried to log to step 7 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:22,199 INFO [mnist/szkp] R  8/15 | acc=97.38% | det=2/2 (100%) | pnorms: honest=0.029 byz=0.140 | thresh=0.090 | 6.0s
+2026-06-22 15:49:22,199 INFO [step 8] loss=0.0843 lr=0.0276
+2026-06-22 15:49:22,200 INFO === epoch 8 done | acc=97.38% elapsed=6.0s ===
+wandb: WARNING Tried to log to step 8 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:28,174 INFO [mnist/szkp] R  9/15 | acc=97.43% | det=2/2 (100%) | pnorms: honest=0.023 byz=0.120 | thresh=0.071 | 6.0s
+2026-06-22 15:49:28,175 INFO [step 9] loss=0.0816 lr=0.0224
+2026-06-22 15:49:28,176 INFO === epoch 9 done | acc=97.43% elapsed=6.0s ===
+wandb: WARNING Tried to log to step 9 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:34,028 INFO [mnist/szkp] R 10/15 | acc=97.48% | det=2/2 (100%) | pnorms: honest=0.018 byz=0.101 | thresh=0.056 | 5.8s
+2026-06-22 15:49:34,029 INFO [step 10] loss=0.0800 lr=0.0173
+2026-06-22 15:49:34,029 INFO === epoch 10 done | acc=97.48% elapsed=5.8s ===
+wandb: WARNING Tried to log to step 10 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:40,122 INFO [mnist/szkp] R 11/15 | acc=97.47% | det=2/2 (100%) | pnorms: honest=0.014 byz=0.078 | thresh=0.042 | 6.1s
+2026-06-22 15:49:40,123 INFO [step 11] loss=0.0787 lr=0.0125
+2026-06-22 15:49:40,124 INFO === epoch 11 done | acc=97.47% elapsed=6.1s ===
+wandb: WARNING Tried to log to step 11 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:45,858 INFO [mnist/szkp] R 12/15 | acc=97.49% | det=2/2 (100%) | pnorms: honest=0.010 byz=0.057 | thresh=0.032 | 5.7s
+2026-06-22 15:49:45,859 INFO [step 12] loss=0.0780 lr=0.0083
+2026-06-22 15:49:45,859 INFO === epoch 12 done | acc=97.49% elapsed=5.7s ===
+wandb: WARNING Tried to log to step 12 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:51,558 INFO [mnist/szkp] R 13/15 | acc=97.55% | det=2/2 (100%) | pnorms: honest=0.007 byz=0.040 | thresh=0.020 | 5.7s
+2026-06-22 15:49:51,559 INFO [step 13] loss=0.0770 lr=0.0048
+2026-06-22 15:49:51,560 INFO === epoch 13 done | acc=97.55% elapsed=5.7s ===
+wandb: WARNING Tried to log to step 13 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:49:57,326 INFO [mnist/szkp] R 14/15 | acc=97.57% | det=2/2 (100%) | pnorms: honest=0.004 byz=0.019 | thresh=0.011 | 5.8s
+2026-06-22 15:49:57,327 INFO [step 14] loss=0.0769 lr=0.0022
+2026-06-22 15:49:57,327 INFO === epoch 14 done | acc=97.57% elapsed=5.8s ===
+wandb: WARNING Tried to log to step 14 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:50:03,090 INFO [mnist/szkp] R 15/15 | acc=97.54% | det=2/2 (100%) | pnorms: honest=0.001 byz=0.006 | thresh=0.003 | 5.8s
+2026-06-22 15:50:03,091 INFO [step 15] loss=0.0768 lr=0.0005
+2026-06-22 15:50:03,091 INFO === epoch 15 done | acc=97.54% elapsed=5.8s ===
+wandb: WARNING Tried to log to step 15 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:50:03,095 INFO Proof artifacts → /workspace/output/s_zkp_proof_artifacts/mnist_proofs.json
+2026-06-22 15:50:03,095 INFO [mnist/szkp] DONE | best_acc=97.57% | avg_det=93.33%
+2026-06-22 15:50:03,122 INFO
+>>> mnist/norm_clip
+2026-06-22 15:50:03,122 INFO
+============================================================
+DS=MNIST  defense=norm_clip  rounds=15
+============================================================
+2026-06-22 15:50:03,155 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:50:03,162 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:50:03,180 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:50:03,265 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:50:03,285 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:50:03,324 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:50:03,346 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:50:17,470 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:50:17,560 INFO   Model D=235,146
+2026-06-22 15:50:23,467 INFO [mnist/norm_clip] R  1/15 | acc=92.19% | det=0/2 (0%) | pnorms: honest=7.080 byz=7.076 | thresh=21.232 | 5.9s
+2026-06-22 15:50:23,468 INFO [step 1] loss=0.2668 lr=0.0500
+2026-06-22 15:50:23,469 INFO === epoch 1 done | acc=92.19% elapsed=5.9s ===
+2026-06-22 15:50:29,396 INFO [mnist/norm_clip] R  2/15 | acc=92.02% | det=0/2 (0%) | pnorms: honest=3.192 byz=12.792 | thresh=9.635 | 5.9s
+2026-06-22 15:50:29,398 INFO [step 2] loss=0.2701 lr=0.0495
+2026-06-22 15:50:29,399 INFO === epoch 2 done | acc=92.02% elapsed=5.9s ===
+2026-06-22 15:50:35,676 INFO [mnist/norm_clip] R  3/15 | acc=92.18% | det=0/2 (0%) | pnorms: honest=3.062 byz=12.907 | thresh=9.249 | 6.3s
+2026-06-22 15:50:35,676 INFO [step 3] loss=0.2686 lr=0.0478
+2026-06-22 15:50:35,677 INFO === epoch 3 done | acc=92.18% elapsed=6.3s ===
+2026-06-22 15:50:41,530 INFO [mnist/norm_clip] R  4/15 | acc=91.74% | det=0/2 (0%) | pnorms: honest=2.958 byz=12.887 | thresh=8.888 | 5.9s
+2026-06-22 15:50:41,531 INFO [step 4] loss=0.2805 lr=0.0452
+2026-06-22 15:50:41,532 INFO === epoch 4 done | acc=91.74% elapsed=5.9s ===
+2026-06-22 15:50:47,340 INFO [mnist/norm_clip] R  5/15 | acc=90.17% | det=0/2 (0%) | pnorms: honest=2.848 byz=13.370 | thresh=8.591 | 5.8s
+2026-06-22 15:50:47,340 INFO [step 5] loss=0.3295 lr=0.0417
+2026-06-22 15:50:47,341 INFO === epoch 5 done | acc=90.17% elapsed=5.8s ===
+2026-06-22 15:50:53,052 INFO [mnist/norm_clip] R  6/15 | acc=88.94% | det=0/2 (0%) | pnorms: honest=2.771 byz=13.534 | thresh=8.334 | 5.7s
+2026-06-22 15:50:53,053 INFO [step 6] loss=0.3698 lr=0.0375
+2026-06-22 15:50:53,053 INFO === epoch 6 done | acc=88.94% elapsed=5.7s ===
+2026-06-22 15:50:58,639 INFO [mnist/norm_clip] R  7/15 | acc=87.27% | det=0/2 (0%) | pnorms: honest=2.647 byz=13.470 | thresh=7.941 | 5.6s
+2026-06-22 15:50:58,640 INFO [step 7] loss=0.4420 lr=0.0327
+2026-06-22 15:50:58,641 INFO === epoch 7 done | acc=87.27% elapsed=5.6s ===
+2026-06-22 15:51:04,322 INFO [mnist/norm_clip] R  8/15 | acc=86.43% | det=0/2 (0%) | pnorms: honest=2.566 byz=13.473 | thresh=7.716 | 5.7s
+2026-06-22 15:51:04,323 INFO [step 8] loss=0.4936 lr=0.0276
+2026-06-22 15:51:04,323 INFO === epoch 8 done | acc=86.43% elapsed=5.7s ===
+2026-06-22 15:51:10,169 INFO [mnist/norm_clip] R  9/15 | acc=84.63% | det=0/2 (0%) | pnorms: honest=2.409 byz=13.186 | thresh=7.250 | 5.8s
+2026-06-22 15:51:10,170 INFO [step 9] loss=0.6091 lr=0.0224
+2026-06-22 15:51:10,171 INFO === epoch 9 done | acc=84.63% elapsed=5.8s ===
+2026-06-22 15:51:15,961 INFO [mnist/norm_clip] R 10/15 | acc=82.37% | det=0/2 (0%) | pnorms: honest=2.322 byz=12.913 | thresh=6.986 | 5.8s
+2026-06-22 15:51:15,962 INFO [step 10] loss=0.7449 lr=0.0173
+2026-06-22 15:51:15,962 INFO === epoch 10 done | acc=82.37% elapsed=5.8s ===
+2026-06-22 15:51:21,735 INFO [mnist/norm_clip] R 11/15 | acc=78.57% | det=0/2 (0%) | pnorms: honest=2.216 byz=12.596 | thresh=6.707 | 5.8s
+2026-06-22 15:51:21,736 INFO [step 11] loss=1.0006 lr=0.0125
+2026-06-22 15:51:21,736 INFO === epoch 11 done | acc=78.57% elapsed=5.8s ===
+2026-06-22 15:51:27,392 INFO [mnist/norm_clip] R 12/15 | acc=75.32% | det=0/2 (0%) | pnorms: honest=2.075 byz=11.699 | thresh=6.242 | 5.7s
+2026-06-22 15:51:27,393 INFO [step 12] loss=1.3744 lr=0.0083
+2026-06-22 15:51:27,393 INFO === epoch 12 done | acc=75.32% elapsed=5.7s ===
+2026-06-22 15:51:30,388 INFO [mnist/norm_clip] R 13/15 | acc=70.11% | det=0/2 (0%) | pnorms: honest=1.880 byz=10.209 | thresh=5.671 | 3.0s
+2026-06-22 15:51:30,389 INFO [step 13] loss=1.9741 lr=0.0048
+2026-06-22 15:51:30,390 INFO === epoch 13 done | acc=70.11% elapsed=3.0s ===
+2026-06-22 15:51:33,103 INFO [mnist/norm_clip] R 14/15 | acc=67.24% | det=0/2 (0%) | pnorms: honest=1.537 byz=7.685 | thresh=4.612 | 2.7s
+2026-06-22 15:51:33,104 INFO [step 14] loss=2.4051 lr=0.0022
+2026-06-22 15:51:33,105 INFO === epoch 14 done | acc=67.24% elapsed=2.7s ===
+2026-06-22 15:51:35,842 INFO [mnist/norm_clip] R 15/15 | acc=66.31% | det=0/2 (0%) | pnorms: honest=0.852 byz=3.810 | thresh=2.555 | 2.7s
+2026-06-22 15:51:35,843 INFO [step 15] loss=2.5762 lr=0.0005
+2026-06-22 15:51:35,843 INFO === epoch 15 done | acc=66.31% elapsed=2.7s ===
+2026-06-22 15:51:35,844 INFO [mnist/norm_clip] DONE | best_acc=92.19% | avg_det=0.00%
+2026-06-22 15:51:35,856 INFO
+>>> mnist/no_defense
+2026-06-22 15:51:35,856 INFO
+============================================================
+DS=MNIST  defense=no_defense  rounds=15
+============================================================
+2026-06-22 15:51:35,882 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:51:35,891 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:51:35,908 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:51:35,945 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:51:35,968 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:51:36,006 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 15:51:36,025 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:51:50,094 INFO   mnist: train torch.Size([60000, 1, 28, 28]), test torch.Size([10000, 1, 28, 28])
+2026-06-22 15:51:50,160 INFO   Model D=235,146
+2026-06-22 15:51:56,150 INFO [mnist/no_defense] R  1/15 | acc=92.19% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 6.0s
+2026-06-22 15:51:56,151 INFO [step 1] loss=0.2668 lr=0.0500
+2026-06-22 15:51:56,151 INFO === epoch 1 done | acc=92.19% elapsed=6.0s ===
+2026-06-22 15:52:01,802 INFO [mnist/no_defense] R  2/15 | acc=91.39% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.6s
+2026-06-22 15:52:01,802 INFO [step 2] loss=0.2882 lr=0.0495
+2026-06-22 15:52:01,803 INFO === epoch 2 done | acc=91.39% elapsed=5.6s ===
+2026-06-22 15:52:07,630 INFO [mnist/no_defense] R  3/15 | acc=90.94% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.8s
+2026-06-22 15:52:07,630 INFO [step 3] loss=0.3124 lr=0.0478
+2026-06-22 15:52:07,631 INFO === epoch 3 done | acc=90.94% elapsed=5.8s ===
+2026-06-22 15:52:13,312 INFO [mnist/no_defense] R  4/15 | acc=89.38% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.7s
+2026-06-22 15:52:13,313 INFO [step 4] loss=0.3636 lr=0.0452
+2026-06-22 15:52:13,314 INFO === epoch 4 done | acc=89.38% elapsed=5.7s ===
+2026-06-22 15:52:19,265 INFO [mnist/no_defense] R  5/15 | acc=83.05% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.9s
+2026-06-22 15:52:19,266 INFO [step 5] loss=0.5651 lr=0.0417
+2026-06-22 15:52:19,266 INFO === epoch 5 done | acc=83.05% elapsed=5.9s ===
+2026-06-22 15:52:25,011 INFO [mnist/no_defense] R  6/15 | acc=75.11% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.7s
+2026-06-22 15:52:25,012 INFO [step 6] loss=0.8975 lr=0.0375
+2026-06-22 15:52:25,012 INFO === epoch 6 done | acc=75.11% elapsed=5.7s ===
+2026-06-22 15:52:31,207 INFO [mnist/no_defense] R  7/15 | acc=56.36% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 6.2s
+2026-06-22 15:52:31,208 INFO [step 7] loss=1.9176 lr=0.0327
+2026-06-22 15:52:31,209 INFO === epoch 7 done | acc=56.36% elapsed=6.2s ===
+2026-06-22 15:52:37,301 INFO [mnist/no_defense] R  8/15 | acc=44.58% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 6.1s
+2026-06-22 15:52:37,301 INFO [step 8] loss=3.1668 lr=0.0276
+2026-06-22 15:52:37,303 INFO === epoch 8 done | acc=44.58% elapsed=6.1s ===
+2026-06-22 15:52:43,307 INFO [mnist/no_defense] R  9/15 | acc=38.34% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 6.0s
+2026-06-22 15:52:43,308 INFO [step 9] loss=4.9315 lr=0.0224
+2026-06-22 15:52:43,309 INFO === epoch 9 done | acc=38.34% elapsed=6.0s ===
+2026-06-22 15:52:49,143 INFO [mnist/no_defense] R 10/15 | acc=34.96% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.8s
+2026-06-22 15:52:49,144 INFO [step 10] loss=6.4844 lr=0.0173
+2026-06-22 15:52:49,144 INFO === epoch 10 done | acc=34.96% elapsed=5.8s ===
+2026-06-22 15:52:54,906 INFO [mnist/no_defense] R 11/15 | acc=34.80% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.8s
+2026-06-22 15:52:54,906 INFO [step 11] loss=8.2638 lr=0.0125
+2026-06-22 15:52:54,907 INFO === epoch 11 done | acc=34.80% elapsed=5.8s ===
+2026-06-22 15:53:00,765 INFO [mnist/no_defense] R 12/15 | acc=32.46% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.9s
+2026-06-22 15:53:00,765 INFO [step 12] loss=11.0908 lr=0.0083
+2026-06-22 15:53:00,766 INFO === epoch 12 done | acc=32.46% elapsed=5.9s ===
+2026-06-22 15:53:06,431 INFO [mnist/no_defense] R 13/15 | acc=31.80% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.7s
+2026-06-22 15:53:06,432 INFO [step 13] loss=13.0863 lr=0.0048
+2026-06-22 15:53:06,432 INFO === epoch 13 done | acc=31.80% elapsed=5.7s ===
+2026-06-22 15:53:12,279 INFO [mnist/no_defense] R 14/15 | acc=31.73% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.8s
+2026-06-22 15:53:12,280 INFO [step 14] loss=14.2783 lr=0.0022
+2026-06-22 15:53:12,280 INFO === epoch 14 done | acc=31.73% elapsed=5.8s ===
+2026-06-22 15:53:18,091 INFO [mnist/no_defense] R 15/15 | acc=31.62% | det=0/2 (0%) | pnorms: honest=0.000 byz=0.000 | thresh=0.000 | 5.8s
+2026-06-22 15:53:18,092 INFO [step 15] loss=14.7118 lr=0.0005
+2026-06-22 15:53:18,092 INFO === epoch 15 done | acc=31.62% elapsed=5.8s ===
+2026-06-22 15:53:18,093 INFO [mnist/no_defense] DONE | best_acc=92.19% | avg_det=0.00%
+2026-06-22 15:53:18,095 INFO
+>>> cifar10/szkp
+2026-06-22 15:53:18,095 INFO
+============================================================
+DS=CIFAR10  defense=szkp  rounds=20
+============================================================
+2026-06-22 15:53:18,202 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 15:53:18,209 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 15:53:18,228 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:53:18,259 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 15:53:18,279 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/revision/0b2714987fa478483af9968de7c934580d0bb9a2 "HTTP/1.1 200 OK"
+2026-06-22 15:53:18,296 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 15:53:18,344 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 15:53:18,375 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:53:18,394 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 15:53:18,414 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 15:53:36,298 INFO   cifar10: train torch.Size([50000, 3, 32, 32]), test torch.Size([10000, 3, 32, 32])
+2026-06-22 15:53:36,436 INFO   Model D=964,170
+2026-06-22 15:54:06,507 INFO [cifar10/szkp] R  1/20 | acc=21.16% | det=0/2 (0%) | pnorms: honest=0.037 byz=0.038 | thresh=0.111 | 30.1s
+2026-06-22 15:54:06,508 INFO [step 1] loss=2.2530 lr=0.0100
+2026-06-22 15:54:06,508 INFO === epoch 1 done | acc=21.16% elapsed=30.1s ===
+wandb: WARNING Tried to log to step 16 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:54:36,025 INFO [cifar10/szkp] R  2/20 | acc=18.14% | det=2/2 (100%) | pnorms: honest=0.030 byz=0.114 | thresh=0.094 | 29.5s
+2026-06-22 15:54:36,026 INFO [step 2] loss=2.2430 lr=0.0099
+2026-06-22 15:54:36,027 INFO === epoch 2 done | acc=18.14% elapsed=29.5s ===
+wandb: WARNING Tried to log to step 17 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:55:05,619 INFO [cifar10/szkp] R  3/20 | acc=21.64% | det=2/2 (100%) | pnorms: honest=0.028 byz=0.114 | thresh=0.087 | 29.6s
+2026-06-22 15:55:05,620 INFO [step 3] loss=2.2351 lr=0.0098
+2026-06-22 15:55:05,620 INFO === epoch 3 done | acc=21.64% elapsed=29.6s ===
+wandb: WARNING Tried to log to step 18 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:55:35,112 INFO [cifar10/szkp] R  4/20 | acc=26.92% | det=2/2 (100%) | pnorms: honest=0.025 byz=0.097 | thresh=0.077 | 29.5s
+2026-06-22 15:55:35,113 INFO [step 4] loss=2.2369 lr=0.0095
+2026-06-22 15:55:35,113 INFO === epoch 4 done | acc=26.92% elapsed=29.5s ===
+wandb: WARNING Tried to log to step 19 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:56:04,745 INFO [cifar10/szkp] R  5/20 | acc=26.05% | det=2/2 (100%) | pnorms: honest=0.025 byz=0.099 | thresh=0.079 | 29.6s
+2026-06-22 15:56:04,746 INFO [step 5] loss=2.2384 lr=0.0090
+2026-06-22 15:56:04,747 INFO === epoch 5 done | acc=26.05% elapsed=29.6s ===
+wandb: WARNING Tried to log to step 20 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:56:34,143 INFO [cifar10/szkp] R  6/20 | acc=23.77% | det=2/2 (100%) | pnorms: honest=0.025 byz=0.100 | thresh=0.077 | 29.4s
+2026-06-22 15:56:34,144 INFO [step 6] loss=2.2406 lr=0.0085
+2026-06-22 15:56:34,145 INFO === epoch 6 done | acc=23.77% elapsed=29.4s ===
+wandb: WARNING Tried to log to step 21 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:57:03,743 INFO [cifar10/szkp] R  7/20 | acc=23.86% | det=2/2 (100%) | pnorms: honest=0.024 byz=0.100 | thresh=0.074 | 29.6s
+2026-06-22 15:57:03,743 INFO [step 7] loss=2.2352 lr=0.0079
+2026-06-22 15:57:03,745 INFO === epoch 7 done | acc=23.86% elapsed=29.6s ===
+wandb: WARNING Tried to log to step 22 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:57:33,344 INFO [cifar10/szkp] R  8/20 | acc=27.05% | det=2/2 (100%) | pnorms: honest=0.022 byz=0.095 | thresh=0.069 | 29.6s
+2026-06-22 15:57:33,344 INFO [step 8] loss=2.2378 lr=0.0073
+2026-06-22 15:57:33,345 INFO === epoch 8 done | acc=27.05% elapsed=29.6s ===
+wandb: WARNING Tried to log to step 23 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:58:02,893 INFO [cifar10/szkp] R  9/20 | acc=25.02% | det=2/2 (100%) | pnorms: honest=0.021 byz=0.095 | thresh=0.065 | 29.5s
+2026-06-22 15:58:02,894 INFO [step 9] loss=2.2385 lr=0.0065
+2026-06-22 15:58:02,895 INFO === epoch 9 done | acc=25.02% elapsed=29.5s ===
+wandb: WARNING Tried to log to step 24 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:58:32,434 INFO [cifar10/szkp] R 10/20 | acc=26.60% | det=2/2 (100%) | pnorms: honest=0.020 byz=0.083 | thresh=0.062 | 29.5s
+2026-06-22 15:58:32,435 INFO [step 10] loss=2.2373 lr=0.0058
+2026-06-22 15:58:32,435 INFO === epoch 10 done | acc=26.60% elapsed=29.5s ===
+wandb: WARNING Tried to log to step 25 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 15:59:02,044 INFO [cifar10/szkp] R 11/20 | acc=28.64% | det=2/2 (100%) | pnorms: honest=0.018 byz=0.081 | thresh=0.054 | 29.6s
+2026-06-22 15:59:02,044 INFO [step 11] loss=2.2420 lr=0.0050
+2026-06-22 15:59:02,045 INFO === epoch 11 done | acc=28.64% elapsed=29.6s ===
+wandb: WARNING Tried to log to step 26 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.

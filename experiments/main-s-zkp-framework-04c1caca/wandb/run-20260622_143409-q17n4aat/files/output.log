@@ -1,0 +1,39 @@
+2026-06-22 14:34:10,147 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/q17n4aat
+2026-06-22 14:34:10,148 INFO
+============================================================
+2026-06-22 14:34:10,148 INFO DATASET: MNIST
+2026-06-22 14:34:10,149 INFO ============================================================
+2026-06-22 14:34:11,102 INFO Loading ylecun/mnist from HF ...
+2026-06-22 14:34:11,138 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,182 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 14:34:11,183 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 14:34:11,192 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,201 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/ylecun/mnist/77f3279092a1c1579b2250db8eafed0ad422088c/README.md "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,221 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:11,259 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/ylecun/mnist/ylecun/mnist.py "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:11,313 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/revision/77f3279092a1c1579b2250db8eafed0ad422088c "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,334 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:11,530 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=ylecun/mnist "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,554 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c/mnist?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,579 INFO HTTP Request: GET https://huggingface.co/api/datasets/ylecun/mnist/tree/77f3279092a1c1579b2250db8eafed0ad422088c?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 14:34:11,608 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 14:34:11,634 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist/train-00000-of-00001.parquet "HTTP/1.1 302 Found"
+2026-06-22 14:34:12,216 INFO HTTP Request: HEAD https://huggingface.co/datasets/ylecun/mnist/resolve/77f3279092a1c1579b2250db8eafed0ad422088c/mnist/test-00000-of-00001.parquet "HTTP/1.1 302 Found"
+Generating train split: 100%|██████████| 60000/60000 [00:00<00:00, 268560.93 examples/s]
+Generating test split: 100%|██████████| 10000/10000 [00:00<00:00, 258464.12 examples/s]
+2026-06-22 14:34:27,175 INFO   Train: torch.Size([60000, 1, 28, 28]), Test: torch.Size([10000, 1, 28, 28])
+2026-06-22 14:34:27,395 INFO Model params D = 235146
+Traceback (most recent call last):
+  File "/workspace/output/code/train.py", line 753, in <module>
+    main()
+  File "/workspace/output/code/train.py", line 600, in main
+    result = run_fl(ds, ROUNDS, wandb_run, all_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/output/code/train.py", line 387, in run_fl
+    P = make_projection_matrix(PROJ_DIM, D, seed=SEED)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/output/code/train.py", line 158, in make_projection_matrix
+    P = torch.randn(d, D, generator=rng, device=DEVICE)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected a 'cuda' device type for generator but found 'cpu'

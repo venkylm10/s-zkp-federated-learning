@@ -1,0 +1,36 @@
+{
+  "os": "Linux-4.19.0-gvisor-x86_64-with-glibc2.41",
+  "python": "CPython 3.11.15",
+  "startedAt": "2026-06-22T14:34:44.839560Z",
+  "program": "/workspace/output/code/train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "email": "ragidiabhinavreddy@gmail.com",
+  "root": "/workspace/output/code",
+  "host": "modal",
+  "executable": "/usr/local/bin/python",
+  "cpu_count": 17,
+  "cpu_count_logical": 17,
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "9223372036854771712",
+      "used": "7746510848"
+    }
+  },
+  "memory": {
+    "total": "259786653696"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA L4",
+      "memoryTotal": "24152899584",
+      "cudaCores": 7424,
+      "architecture": "Ada",
+      "uuid": "GPU-bb9fc74e-a945-10e2-b5b2-ca6adfb54033"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "oh5gt86q9tj5861d2ughbvs27j32rbqy"
+}

@@ -1,0 +1,122 @@
+2026-06-22 16:03:31,351 INFO WANDB_RUN_URL: https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-14e30fb6/runs/9jq7o066
+2026-06-22 16:03:31,351 INFO
+>>> mnist/szkp [CACHED — loading from /workspace/output/run_cache_mnist_szkp.json]
+2026-06-22 16:03:31,351 INFO
+>>> mnist/norm_clip [CACHED — loading from /workspace/output/run_cache_mnist_norm_clip.json]
+2026-06-22 16:03:31,352 INFO
+>>> mnist/no_defense [CACHED — loading from /workspace/output/run_cache_mnist_no_defense.json]
+2026-06-22 16:03:31,353 INFO
+>>> cifar10/szkp
+2026-06-22 16:03:31,353 INFO
+============================================================
+DS=CIFAR10  defense=szkp  rounds=20
+============================================================
+2026-06-22 16:03:32,465 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 16:03:32,466 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-22 16:03:32,472 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 16:03:32,492 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:03:32,660 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:03:32,746 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/revision/0b2714987fa478483af9968de7c934580d0bb9a2 "HTTP/1.1 200 OK"
+2026-06-22 16:03:32,768 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 16:03:32,823 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 16:03:32,852 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-22 16:03:32,868 INFO HTTP Request: GET https://huggingface.co/api/datasets/uoft-cs/cifar10/tree/0b2714987fa478483af9968de7c934580d0bb9a2?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-22 16:03:32,891 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-06-22 16:03:50,896 INFO   cifar10: train torch.Size([50000, 3, 32, 32]), test torch.Size([10000, 3, 32, 32])
+2026-06-22 16:03:51,125 INFO   Model D=964,170
+2026-06-22 16:04:02,517 INFO [cifar10/szkp] R  1/20 | acc=28.94% | det=0/2 (0%) | pnorms: honest=0.072 byz=0.070 | thresh=0.214 | 11.4s
+2026-06-22 16:04:02,518 INFO [step 1] loss=2.0460 lr=0.0500
+2026-06-22 16:04:02,518 INFO === epoch 1 done | acc=28.94% elapsed=11.4s ===
+wandb: WARNING Tried to log to step 16 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:10,888 INFO [cifar10/szkp] R  2/20 | acc=21.82% | det=2/2 (100%) | pnorms: honest=0.055 byz=0.220 | thresh=0.163 | 8.4s
+2026-06-22 16:04:10,889 INFO [step 2] loss=2.0569 lr=0.0497
+2026-06-22 16:04:10,890 INFO === epoch 2 done | acc=21.82% elapsed=8.4s ===
+wandb: WARNING Tried to log to step 17 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:19,571 INFO [cifar10/szkp] R  3/20 | acc=27.80% | det=2/2 (100%) | pnorms: honest=0.049 byz=0.197 | thresh=0.151 | 8.7s
+2026-06-22 16:04:19,571 INFO [step 3] loss=1.9619 lr=0.0488
+2026-06-22 16:04:19,572 INFO === epoch 3 done | acc=27.80% elapsed=8.7s ===
+wandb: WARNING Tried to log to step 18 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:27,995 INFO [cifar10/szkp] R  4/20 | acc=28.75% | det=2/2 (100%) | pnorms: honest=0.043 byz=0.172 | thresh=0.131 | 8.4s
+2026-06-22 16:04:27,995 INFO [step 4] loss=1.9453 lr=0.0473
+2026-06-22 16:04:27,996 INFO === epoch 4 done | acc=28.75% elapsed=8.4s ===
+wandb: WARNING Tried to log to step 19 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:36,381 INFO [cifar10/szkp] R  5/20 | acc=31.68% | det=2/2 (100%) | pnorms: honest=0.042 byz=0.147 | thresh=0.128 | 8.4s
+2026-06-22 16:04:36,381 INFO [step 5] loss=1.9980 lr=0.0452
+2026-06-22 16:04:36,382 INFO === epoch 5 done | acc=31.68% elapsed=8.4s ===
+wandb: WARNING Tried to log to step 20 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:44,804 INFO [cifar10/szkp] R  6/20 | acc=30.14% | det=2/2 (100%) | pnorms: honest=0.041 byz=0.173 | thresh=0.126 | 8.4s
+2026-06-22 16:04:44,805 INFO [step 6] loss=2.0524 lr=0.0427
+2026-06-22 16:04:44,805 INFO === epoch 6 done | acc=30.14% elapsed=8.4s ===
+wandb: WARNING Tried to log to step 21 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:04:53,274 INFO [cifar10/szkp] R  7/20 | acc=29.02% | det=2/2 (100%) | pnorms: honest=0.036 byz=0.161 | thresh=0.111 | 8.5s
+2026-06-22 16:04:53,275 INFO [step 7] loss=2.0868 lr=0.0397
+2026-06-22 16:04:53,275 INFO === epoch 7 done | acc=29.02% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 22 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:01,884 INFO [cifar10/szkp] R  8/20 | acc=35.60% | det=2/2 (100%) | pnorms: honest=0.035 byz=0.140 | thresh=0.109 | 8.6s
+2026-06-22 16:05:01,885 INFO [step 8] loss=2.0913 lr=0.0363
+2026-06-22 16:05:01,885 INFO === epoch 8 done | acc=35.60% elapsed=8.6s ===
+wandb: WARNING Tried to log to step 23 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:10,364 INFO [cifar10/szkp] R  9/20 | acc=34.91% | det=2/2 (100%) | pnorms: honest=0.035 byz=0.145 | thresh=0.105 | 8.5s
+2026-06-22 16:05:10,365 INFO [step 9] loss=2.1269 lr=0.0327
+2026-06-22 16:05:10,365 INFO === epoch 9 done | acc=34.91% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 24 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:18,843 INFO [cifar10/szkp] R 10/20 | acc=30.81% | det=2/2 (100%) | pnorms: honest=0.031 byz=0.125 | thresh=0.093 | 8.5s
+2026-06-22 16:05:18,844 INFO [step 10] loss=2.1674 lr=0.0289
+2026-06-22 16:05:18,844 INFO === epoch 10 done | acc=30.81% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 25 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:27,380 INFO [cifar10/szkp] R 11/20 | acc=23.68% | det=2/2 (100%) | pnorms: honest=0.029 byz=0.105 | thresh=0.089 | 8.5s
+2026-06-22 16:05:27,381 INFO [step 11] loss=2.2025 lr=0.0250
+2026-06-22 16:05:27,382 INFO === epoch 11 done | acc=23.68% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 26 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:36,043 INFO [cifar10/szkp] R 12/20 | acc=17.33% | det=2/2 (100%) | pnorms: honest=0.025 byz=0.103 | thresh=0.077 | 8.6s
+2026-06-22 16:05:36,043 INFO [step 12] loss=2.2405 lr=0.0211
+2026-06-22 16:05:36,044 INFO === epoch 12 done | acc=17.33% elapsed=8.6s ===
+wandb: WARNING Tried to log to step 27 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:44,612 INFO [cifar10/szkp] R 13/20 | acc=14.62% | det=2/2 (100%) | pnorms: honest=0.022 byz=0.087 | thresh=0.070 | 8.6s
+2026-06-22 16:05:44,612 INFO [step 13] loss=2.2573 lr=0.0173
+2026-06-22 16:05:44,613 INFO === epoch 13 done | acc=14.62% elapsed=8.6s ===
+wandb: WARNING Tried to log to step 28 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:05:53,304 INFO [cifar10/szkp] R 14/20 | acc=12.03% | det=2/2 (100%) | pnorms: honest=0.018 byz=0.081 | thresh=0.056 | 8.7s
+2026-06-22 16:05:53,305 INFO [step 14] loss=2.2790 lr=0.0137
+2026-06-22 16:05:53,306 INFO === epoch 14 done | acc=12.03% elapsed=8.7s ===
+wandb: WARNING Tried to log to step 29 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:02,287 INFO [cifar10/szkp] R 15/20 | acc=11.11% | det=2/2 (100%) | pnorms: honest=0.015 byz=0.063 | thresh=0.048 | 9.0s
+2026-06-22 16:06:02,288 INFO [step 15] loss=2.2866 lr=0.0103
+2026-06-22 16:06:02,288 INFO === epoch 15 done | acc=11.11% elapsed=9.0s ===
+wandb: WARNING Tried to log to step 30 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:10,790 INFO [cifar10/szkp] R 16/20 | acc=10.18% | det=2/2 (100%) | pnorms: honest=0.012 byz=0.047 | thresh=0.038 | 8.5s
+2026-06-22 16:06:10,791 INFO [step 16] loss=2.2957 lr=0.0073
+2026-06-22 16:06:10,791 INFO === epoch 16 done | acc=10.18% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 31 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:19,674 INFO [cifar10/szkp] R 17/20 | acc=10.07% | det=2/2 (100%) | pnorms: honest=0.008 byz=0.034 | thresh=0.026 | 8.9s
+2026-06-22 16:06:19,676 INFO [step 17] loss=2.3002 lr=0.0048
+2026-06-22 16:06:19,676 INFO === epoch 17 done | acc=10.07% elapsed=8.9s ===
+wandb: WARNING Tried to log to step 32 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:28,861 INFO [cifar10/szkp] R 18/20 | acc=10.06% | det=2/2 (100%) | pnorms: honest=0.005 byz=0.023 | thresh=0.017 | 9.2s
+2026-06-22 16:06:28,862 INFO [step 18] loss=2.3008 lr=0.0027
+2026-06-22 16:06:28,862 INFO === epoch 18 done | acc=10.06% elapsed=9.2s ===
+wandb: WARNING Tried to log to step 33 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:37,409 INFO [cifar10/szkp] R 19/20 | acc=10.06% | det=2/2 (100%) | pnorms: honest=0.003 byz=0.012 | thresh=0.008 | 8.5s
+2026-06-22 16:06:37,409 INFO [step 19] loss=2.3022 lr=0.0012
+2026-06-22 16:06:37,410 INFO === epoch 19 done | acc=10.06% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 34 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:45,939 INFO [cifar10/szkp] R 20/20 | acc=10.05% | det=2/2 (100%) | pnorms: honest=0.001 byz=0.004 | thresh=0.003 | 8.5s
+2026-06-22 16:06:45,940 INFO [step 20] loss=2.3024 lr=0.0003
+2026-06-22 16:06:45,940 INFO === epoch 20 done | acc=10.05% elapsed=8.5s ===
+wandb: WARNING Tried to log to step 35 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+2026-06-22 16:06:45,944 INFO Proof artifacts → /workspace/output/s_zkp_proof_artifacts/cifar10_proofs.json
+2026-06-22 16:06:45,945 INFO [cifar10/szkp] DONE | best_acc=35.60% | avg_det=95.00%
+2026-06-22 16:06:45,950 INFO
+>>> cifar10/norm_clip
+2026-06-22 16:06:45,951 INFO
+============================================================
+DS=CIFAR10  defense=norm_clip  rounds=20
+============================================================
+2026-06-22 16:06:45,993 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-22 16:06:45,999 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/uoft-cs/cifar10/0b2714987fa478483af9968de7c934580d0bb9a2/README.md "HTTP/1.1 200 OK"
+2026-06-22 16:06:46,033 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:06:46,068 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/uoft-cs/cifar10/uoft-cs/cifar10.py "HTTP/1.1 404 Not Found"
+2026-06-22 16:06:46,087 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-06-22 16:06:46,159 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=uoft-cs/cifar10 "HTTP/1.1 200 OK"
+2026-06-22 16:06:46,181 INFO HTTP Request: HEAD https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_infos.json "HTTP/1.1 404 Not Found"
